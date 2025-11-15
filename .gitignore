@@ -22,6 +22,8 @@ x86/
 *.suo
 *.userosscache
 *.sln.docstates
+.vs/
+*.vsidx
 
 # 第三方库（通常不应该上传，太大）
 ArkGIS/thirdlib/
