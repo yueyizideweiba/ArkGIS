@@ -1,0 +1,67 @@
+# Visual Studio 编译输出
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.ipdb
+*.pch
+
+# Visual Studio 用户特定文件
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 第三方库（通常不应该上传，太大）
+ArkGIS/thirdlib/
+thirdlib/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# 测试数据中的大文件（可选，如果测试数据太大可以考虑排除）
+# ArkGIS/testdata/
+
+# 编译中间文件
+*.o
+*.a
+*.so
+*.dylib
+
+# Qt 相关
+*.qmlc
+*.jsc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.pro.user
+*.pro.user.*
+
+# 其他
+*.aux.xml
+*.qix
+RCa*
+res.tiff
+

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\StyleManager">
+      <UniqueIdentifier>{414f5c81-0051-4acc-8bd1-d08812061042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Analysis">
+      <UniqueIdentifier>{67f1914b-18ad-416e-9ef3-326fa9fa51c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditView">
+      <UniqueIdentifier>{e818b37d-248c-46e9-855a-2dd7f4d93e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LayerManager">
+      <UniqueIdentifier>{d2a6e85e-d84a-427f-860e-b3f4aba3cadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Projection">
+      <UniqueIdentifier>{3a919ef4-f555-4b87-9aef-d3acf8d77093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditCommand">
+      <UniqueIdentifier>{fea79dd7-5a1a-4c7c-ab2b-6796d33d9715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\buffer">
+      <UniqueIdentifier>{13094b1c-ff8a-46f5-b46a-817dee5e1222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LineEdit">
+      <UniqueIdentifier>{736ae204-ad6b-4dff-8399-d006c6237b5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="mainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol.cpp">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolLibrary.cpp">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolManager.cpp">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AddSymbolDialog.cpp">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolLibraryManager.cpp">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomGraphicsScene.cpp">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterAnalysis.cpp">
+      <Filter>Source Files\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorAnalysis.cpp">
+      <Filter>Source Files\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomDialog.cpp">
+      <Filter>Source Files\LayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerManager.cpp">
+      <Filter>Source Files\LayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleManager.cpp">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EditView.cpp">
+      <Filter>Source Files\EditView</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectionTransformDialog.cpp">
+      <Filter>Source Files\Projection</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleSelectTool.cpp">
+      <Filter>Source Files\Projection</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleClickSelectTool.cpp">
+      <Filter>Source Files\Projection</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureToRaster.cpp">
+      <Filter>Source Files\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCommandManager.cpp">
+      <Filter>Source Files\EditCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferdialog.cpp">
+      <Filter>Source Files\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorToRasterConverter.cpp">
+      <Filter>Source Files\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="EditLine.cpp">
+      <Filter>Source Files\LineEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="PassivationLineTool.cpp">
+      <Filter>Source Files\LineEdit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Form Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SymbolManager.h">
+      <Filter>Source Files\StyleManager</Filter>
+    </QtMoc>
+    <QtMoc Include="AddSymbolDialog.h">
+      <Filter>Source Files\StyleManager</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomGraphicsScene.h">
+      <Filter>Source Files\StyleManager</Filter>
+    </QtMoc>
+    <QtMoc Include="RasterAnalysis.h">
+      <Filter>Source Files\Analysis</Filter>
+    </QtMoc>
+    <QtMoc Include="VectorAnalysis.h">
+      <Filter>Source Files\Analysis</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomDialog.h">
+      <Filter>Source Files\LayerManager</Filter>
+    </QtMoc>
+    <QtMoc Include="LayerManager.h">
+      <Filter>Source Files\LayerManager</Filter>
+    </QtMoc>
+    <QtMoc Include="StyleManager.h">
+      <Filter>Source Files\StyleManager</Filter>
+    </QtMoc>
+    <QtMoc Include="EditView.h">
+      <Filter>Source Files\EditView</Filter>
+    </QtMoc>
+    <QtMoc Include="ProjectionTransformDialog.h">
+      <Filter>Source Files\Projection</Filter>
+    </QtMoc>
+    <QtMoc Include="RectangleSelectTool.h">
+      <Filter>Source Files\Projection</Filter>
+    </QtMoc>
+    <QtMoc Include="SingleClickSelectTool.h">
+      <Filter>Source Files\Projection</Filter>
+    </QtMoc>
+    <QtMoc Include="FeatureToRaster.h">
+      <Filter>Source Files\Analysis</Filter>
+    </QtMoc>
+    <QtMoc Include="EditCommandManager.h">
+      <Filter>Source Files\EditCommand</Filter>
+    </QtMoc>
+    <QtMoc Include="bufferdialog.h">
+      <Filter>Source Files\buffer</Filter>
+    </QtMoc>
+    <QtMoc Include="MyQgsMapTool.h">
+      <Filter>Source Files\Analysis</Filter>
+    </QtMoc>
+    <QtMoc Include="EditLine.h">
+      <Filter>Source Files\LineEdit</Filter>
+    </QtMoc>
+    <QtMoc Include="PassivationLineTool.h">
+      <Filter>Source Files\LineEdit</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="theme.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SymbolLibrary.h">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbol.h">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolLibraryManager.h">
+      <Filter>Source Files\StyleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorToRasterConverter.h">
+      <Filter>Source Files\buffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QGISdev1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

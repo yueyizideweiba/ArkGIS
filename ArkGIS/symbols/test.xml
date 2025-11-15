@@ -1,0 +1,56 @@
+<symbol name="Anvil" force_rhr="0" tags="Temaki" clip_to_extent="1" type="marker" alpha="1">
+    <data_defined_properties>
+        <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+        </Option>
+    </data_defined_properties>
+    <layer locked="0" pass="0" enabled="1" class="SvgMarker">
+        <Option type="Map">
+            <Option value="0" name="angle" type="QString"/>
+            <Option value="0,0,0,255" name="color" type="QString"/>
+            <Option value="0" name="fixedAspectRatio" type="QString"/>
+            <Option value="1" name="horizontal_anchor_point" type="QString"/>
+            <Option value="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB2aWV3Qm94PSIwIDAgMTUgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgZmlsbC1vcGFjaXR5PSJwYXJhbShmaWxsLW9wYWNpdHkpIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgc3Ryb2tlLW9wYWNpdHk9InBhcmFtKG91dGxpbmUtb3BhY2l0eSkiIGQ9Ik0xMSA5LjVMMTMgMTFMMTMgMTJMMTEgMTJDMTAuMzMgMTEuMzMgOS41IDExIDguNSAxMUM3LjUgMTEgNi42NyAxMS4zMyA2IDEyTDQgMTJMNCAxMUw2IDkuNUwxMSA5LjVaTTE1IDRMMTUgNUMxMi44NiA1IDExLjExIDYuNjggMTEgOC44TDExIDlMNiA5QzYgOC4zNiA1Ljc1IDcuNzUgNS4yOSA3LjI5TDUgN0w1IDRMMTUgNFpNMCA0LjVMNC41IDQuNUw0LjUgN0MyLjgzIDcgMS4zMyA2LjE3IDAgNC41WiIvPgo8L3N2Zz4=" name="name" type="QString"/>
+            <Option value="0,0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="255,255,255,255" name="outline_color" type="QString"/>
+            <Option value="0" name="outline_width" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+            <Option value="MM" name="outline_width_unit" type="QString"/>
+            <Option name="parameters"/>
+            <Option value="diameter" name="scale_method" type="QString"/>
+            <Option value="7" name="size" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+            <Option value="MM" name="size_unit" type="QString"/>
+            <Option value="1" name="vertical_anchor_point" type="QString"/>
+        </Option>
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB2aWV3Qm94PSIwIDAgMTUgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgZmlsbC1vcGFjaXR5PSJwYXJhbShmaWxsLW9wYWNpdHkpIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgc3Ryb2tlLW9wYWNpdHk9InBhcmFtKG91dGxpbmUtb3BhY2l0eSkiIGQ9Ik0xMSA5LjVMMTMgMTFMMTMgMTJMMTEgMTJDMTAuMzMgMTEuMzMgOS41IDExIDguNSAxMUM3LjUgMTEgNi42NyAxMS4zMyA2IDEyTDQgMTJMNCAxMUw2IDkuNUwxMSA5LjVaTTE1IDRMMTUgNUMxMi44NiA1IDExLjExIDYuNjggMTEgOC44TDExIDlMNiA5QzYgOC4zNiA1Ljc1IDcuNzUgNS4yOSA3LjI5TDUgN0w1IDRMMTUgNFpNMCA0LjVMNC41IDQuNUw0LjUgN0MyLjgzIDcgMS4zMyA2LjE3IDAgNC41WiIvPgo8L3N2Zz4="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="parameters" v=""/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="7"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+            <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+            </Option>
+        </data_defined_properties>
+    </layer>
+</symbol>

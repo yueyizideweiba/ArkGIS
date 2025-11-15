@@ -1,0 +1,710 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Ballon 1" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDEuMTE2cHgiIGhlaWdodD0iNDEuMTE2cHgiIHZpZXdCb3g9IjAgLTAuMzEgNDEuMTE2IDQxLjExNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iQmFsbG9vbl8xIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNzQxLjY4MiAtMTgwLjcpIj4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF81MCIgZGF0YS1uYW1lPSJQYXRoIDUwIiBkPSJNNzYwLDE5Ny4yYTEzLjA0NCwxMy4wNDQsMCwwLDAsMi4zLjJoLjFhMTQuMDQzLDE0LjA0MywwLDAsMCwyLjMtLjIsNDMuOTQzLDQzLjk0MywwLDAsMCwyLjQtMTUuMSw4LjksOC45LDAsMCwwLTQuNi0xLjRoLS4zYTguOTE1LDguOTE1LDAsMCwwLTQuNSwxLjNBNzAuOTcyLDcwLjk3MiwwLDAsMCw3NjAsMTk3LjJaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNTEiIGRhdGEtbmFtZT0iUGF0aCA1MSIgZD0iTTc2NS42LDE5Ny40YTUuNDMyLDUuNDMyLDAsMCwwLDMuOCwxLjNjNi03LjQsNS43LTEzLjEsNS41LTE0LjRhNy43MjIsNy43MjIsMCwwLDAtNi44LTJBNDkuOTQ3LDQ5Ljk0NywwLDAsMSw3NjUuNiwxOTcuNFoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF81MiIgZGF0YS1uYW1lPSJQYXRoIDUyIiBkPSJNNzgyLjcsMTg4LjljMC0uMSwwLS4xLS4xLS4yYTcuMjQxLDcuMjQxLDAsMCwwLTYuNy00LjNjLjIsMS45LjEsNy40LTUuNSwxNC41YTguMDU0LDguMDU0LDAsMCwwLDMuMSwxLjdsLTguNCw4LjhjLS40LjItLjgtLjEtLjktLjFhLjkwOC45MDgsMCwwLDAtMSwwLC41NjQuNTY0LDAsMCwxLS42LDAsLjkwOC45MDgsMCwwLDAtMSwwLC43NzguNzc4LDAsMCwxLS43LDAsLjc1Ljc1LDAsMCwwLS45LDAsMS43MTgsMS43MTgsMCwwLDEtLjguMmwtOC4zLTguOGE3LjEsNy4xLDAsMCwwLDMuMS0xLjYsMjMuNTYyLDIzLjU2MiwwLDAsMS01LjItMTQuNiw3LjE0OSw3LjE0OSwwLDAsMC02LjksNC4zYzAsLjEsMCwuMS0uMS4yLDAsLjEtMS41LDcuMSw2LjIsMTEuNmw5LjgsMTAuM2ExLjg2NiwxLjg2NiwwLDAsMCwuNC4zLDUuMjk0LDUuMjk0LDAsMCwxLS4xLDIuNUE0LjM1Nyw0LjM1NywwLDAsMCw3NTcsMjE3YzAsMiwuOCwzLjUsMiwzLjdoLjFhMTAuMjYsMTAuMjYsMCwwLDAsMy4xLjUsMTAuMDIsMTAuMDIsMCwwLDAsMy4yLS41YzEuMywwLDIuMy0xLjYsMi4zLTMuOGE0LjE0Miw0LjE0MiwwLDAsMC0xLjMtMy40LDUuMzMyLDUuMzMyLDAsMCwxLS4yLTIuNWgwYy4xLDAsLjEtLjEuMi0uMmw5LjktMTAuNEM3ODQuMSwxOTUuOSw3ODIuNywxODguOSw3ODIuNywxODguOVptLTIzLjMsMjkuNmE0LjMwOCw0LjMwOCwwLDAsMS0uMy0xLjUsMy44MDcsMy44MDcsMCwwLDEsLjMtMS41LDMuOSwzLjksMCwwLDEsMCwzWm0xLjkuNmE2LjY1Miw2LjY1MiwwLDAsMCwuNC0yLjIsNS42NjIsNS42NjIsMCwwLDAtLjMtMS44aDJhNC44NDQsNC44NDQsMCwwLDAtLjMsMS44LDQuNjM3LDQuNjM3LDAsMCwwLC40LDIuMUE1LjU5LDUuNTksMCwwLDEsNzYxLjMsMjE5LjFabS0xLTUuOWE1Ljk3Miw1Ljk3MiwwLDAsMCwwLTEuOWguMWEzLjI0MywzLjI0MywwLDAsMCwxLjcsMCwyLjg3NywyLjg3NywwLDAsMCwxLjYsMGMuMSwwLC4zLjEuNC4xYTEwLjI4NSwxMC4yODUsMCwwLDAsLjEsMS44aC0zLjlabTUuMiw1LjNhNC4zMDgsNC4zMDgsMCwwLDEtLjMtMS41LDMuODA3LDMuODA3LDAsMCwxLC4zLTEuNSwzLjksMy45LDAsMCwxLDAsM1oiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF81MyIgZGF0YS1uYW1lPSJQYXRoIDUzIiBkPSJNNzU1LjIsMTk4LjdhNS45NjYsNS45NjYsMCwwLDAsMy44LTEuMyw3My40NDYsNzMuNDQ2LDAsMCwxLTIuMy0xNS4xLDcuNDY4LDcuNDY4LDAsMCwwLTYuOCwxLjhDNzQ5LjksMTg1LjUsNzUwLjIsMTkzLjEsNzU1LjIsMTk4LjdaIi8+CiAgPC9nPgo8L3N2Zz4K"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Ballon 2" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iMzguNnB4IiBoZWlnaHQ9IjM4LjZweCIgdmlld0JveD0iLTYuNyAwIDM4LjYgMzguNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IkJhbGxvb25fMiIgZD0iTTY3Ni43LDE5NC44Yy0uMS03LjMtNS43LTEzLjEtMTIuNS0xMy4xLTYuOSwwLTEyLjUsNi0xMi41LDEzLjQuMiwyLjUsMS4zLDcuNSw1LjgsMTMuNGEyNC42NjcsMjQuNjY3LDAsMCwxLDIuMSwzLjFsMS4xLDIuOGMtLjEuMS0uMi4xLS4zLjJhLjc3OC43NzgsMCwwLDAtLjIuOGwuNSw0YTEuMDYzLDEuMDYzLDAsMCwwLDEsLjloNS4yYTEuMDYzLDEuMDYzLDAsMCwwLDEtLjlsLjUtNGExLjg4MywxLjg4MywwLDAsMC0uMi0uOGMtLjEtLjEtLjItLjItLjMtLjJsMS0yLjdhMjIuMiwyMi4yLDAsMCwxLDIuMS0zLjJjNC40LTUuNyw1LjUtMTAuNiw1LjgtMTMuMSwwLS4xLjEtLjIuMS0uNEM2NzYuNywxOTQuOSw2NzYuNywxOTQuOSw2NzYuNywxOTQuOFptLTExLjEsMTkuNWgtMi44bC0uNy0xLjljLjEsMCwuMi0uMS4zLS4xYTIuNzM1LDIuNzM1LDAsMCwwLDEuOCwwLDIuODc3LDIuODc3LDAsMCwwLDEuNiwwLC45LjksMCwwLDAsLjUuMVptMy45LTYuM2MtLjQuOC0uOCwxLjctMS4yLDIuNGEuOTA4LjkwOCwwLDAsMC0xLDAsMS4wMjgsMS4wMjgsMCwwLDEtMSwwYy0uMSwwLS4xLS4xLS4yLS4xLjQtLjksMS4yLTIuNiwxLjUtMy4yLDMuMi03LjQsMy45LTEzLjYsMS45LTE4LjFhOS41ODksOS41ODksMCwwLDAtNC41LTUuMXYyNi42Yy0uMi4xLS41LS4xLS41LS4xYS45MDguOTA4LDAsMCwwLTEsMCwuNzQ5Ljc0OSwwLDAsMS0uNS4xVjE4My45YTEwLjM4MywxMC4zODMsMCwwLDAtNC41LDUuMmMtMS45LDQuNi0xLjIsMTAuNywyLDE4LjEsMCwwLC45LDEuOCwxLjQsMy4xaC0uMWExLjk5MywxLjk5MywwLDAsMS0uOC4yLjkxLjkxLDAsMCwwLTEuMi0uMWgwYy0uNS0xLjEtMS4xLTIuNC0xLjEtMi40LTMuNS04LjEtNC4xLTE0LjctMi0xOS44YTExLjc0OSwxMS43NDksMCwwLDEsNS45LTYuNC45NzIuOTcyLDAsMCwxLC45LjEuNzY0Ljc2NCwwLDAsMSwuNS0uMmMuMiwwLC4zLjEuNS4yYTEuNDEyLDEuNDEyLDAsMCwxLC45LS4xLDExLjg0MSwxMS44NDEsMCwwLDEsNS45LDYuNEM2NzMuNiwxOTMuMyw2NzIuOSwyMDAsNjY5LjUsMjA4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY1MS43IC0xODEuNykiLz4KPC9zdmc+Cg=="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Beach 1" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDYuMzY1cHgiIGhlaWdodD0iNDYuMzY1cHgiIHZpZXdCb3g9IjAgLTkuMzggNDYuMzY1IDQ2LjM2NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IkJlYWNoXzEiIGQ9Ik01ODguNCwyMDguOWMtLjMsMC0uNS0uMS0uOC0uMS0uOS00LjktOC42LTkuNC05LjYtOS45YTYuNDQ0LDYuNDQ0LDAsMCwxLTMtNC4zYzEuNS0uMSwzLjktLjEsNSwuN2ExLjA1LDEuMDUsMCwwLDEsLjUuOSwxLjA2MywxLjA2MywwLDAsMCwxLC45aC4xYTEuMTcyLDEuMTcyLDAsMCwwLC45LTEuMSwzLjYsMy42LDAsMCwwLTEuMy0yLjNjLTEuNi0xLjItNC4yLTEuMy02LTEuMmE3LjIxNiw3LjIxNiwwLDAsMSwyLjYtMi45LDIuNTMxLDIuNTMxLDAsMCwxLDIuNS0uMiwxLjAzLDEuMDMsMCwxLDAsMS0xLjgsNC41NSw0LjU1LDAsMCwwLTQuNS4yLDguOTUzLDguOTUzLDAsMCwwLTMuNCwzLjgsMTEuMzI0LDExLjMyNCwwLDAsMC05LjUtMy41Ljk1NS45NTUsMCwwLDAtLjksMS4xLjkuOSwwLDAsMCwxLjEuOSwxMC4yOTMsMTAuMjkzLDAsMCwxLDcuNCwyLjMsMTMuMSwxMy4xLDAsMCwwLTguOCwyLjguOTkyLjk5MiwwLDAsMCwxLjMsMS41LDEwLjYsMTAuNiwwLDAsMSw2LjYtMi4zLDcuMzMxLDcuMzMxLDAsMCwwLTIuMiwzLDQuMzQxLDQuMzQxLDAsMCwwLC44LDMuNi45MDkuOTA5LDAsMCwwLC44LjQsMS40MjEsMS40MjEsMCwwLDAsLjYtLjIsMS4wNzUsMS4wNzUsMCwwLDAsLjItMS40LDIuNCwyLjQsMCwwLDEtLjUtMS45Yy4zLTEuMiwxLjYtMi4yLDIuNy0yLjlhNy45MDYsNy45MDYsMCwwLDAsMy45LDUuM2wuMS4xYzIuMSwxLjIsNy4yLDQuNiw4LjQsNy44LS40LS4xLS45LS4yLTEuNC0uMy0xLjMtLjMtMi45LS43LTUuMy0xLjEtNS43LTEtMTIuNywxLjItMTQuOSwyLjFsLTEuMy42Yy0uNC0uMi0uOC0uMy0xLjItLjUtLjEsMC0uMi0uMS0uMy0uMWEzMi4zODksMzIuMzg5LDAsMCwwLTIuOC0xNS42aDBhMzIuMTMzLDMyLjEzMywwLDAsMC0yLjgsMTUuMmgtLjdhMjcuODI5LDI3LjgyOSwwLDAsMC04LjgsMi4zbC0yLjQuOWExLjA0LDEuMDQsMCwwLDAtLjYsMS4zLjk2Ljk2LDAsMCwwLC45LjcuMzY3LjM2NywwLDAsMCwuMy0uMWwyLjQtLjlhMjYuMjU3LDI2LjI1NywwLDAsMSw4LjItMi4yaC43YzAsLjMuMS42LjEuOWwuMS45YTUuMDY2LDUuMDY2LDAsMCwxLTIuNi4zLDEuMDIsMS4wMiwwLDAsMC0uNCwyLDIuNzY4LDIuNzY4LDAsMCwwLC45LjFjMi4yLDAsNS4xLTEuMyw1LjUtMS40bDUuNi0yLjRjMS45LS44LDguNS0yLjksMTMuNy0yLDIuNC40LDMuOS44LDUuMiwxLjEsMS41LjMsMi42LjYsNC41LjlhLjk0NS45NDUsMCwwLDAsMS4xLS45QzU4OS40LDIwOS41LDU4OSwyMDksNTg4LjQsMjA4LjlabS0zMCwyLjZjLS4zLjEtLjcuMy0xLjEuNHYtOC43YTEsMSwwLDAsMSwyLDB2Ny45WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTU0Mi44MzcgLTE4Ny4wOTgpIi8+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Beach 3" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDIuMzc1cHgiIGhlaWdodD0iNDIuMzc1cHgiIHZpZXdCb3g9IjAgLTguOTUgNDIuMzc1IDQyLjM3NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iQmVhY2hfMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM0OC43MjUgLTE4OC42MzIpIj4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8zNyIgZGF0YS1uYW1lPSJQYXRoIDM3IiBkPSJNMzg2LjMsMjA5Yy0yLjksMS45LTQuNSwxLjQtNi44LjctLjctLjItMS41LS40LTIuMy0uNi0zLjUtLjktNC4zLS43LTUuNy0uMmE4LjcyNSw4LjcyNSwwLDAsMS0zLjEuOCw4LjUsOC41LDAsMCwxLTQuMy0uNywxMS4yODUsMTEuMjg1LDAsMCwwLTQuOS0uOSw4LjQ2NSw4LjQ2NSwwLDAsMC00LjMsMS43Yy0xLjUsMS0yLjYsMS43LTQuOC45YTEuMDEyLDEuMDEyLDAsMCwwLS43LDEuOSw2LjYxLDYuNjEsMCwwLDAsMi42LjUsNi44NjksNi44NjksMCwwLDAsNC4xLTEuNiw2LjUyMyw2LjUyMywwLDAsMSwzLjMtMS40LDguODQ0LDguODQ0LDAsMCwxLDQuMS44LDEwLjAwNiwxMC4wMDYsMCwwLDAsNS4yLjgsMTIuNiwxMi42LDAsMCwwLDMuNi0xYy45LS40LDEuMy0uNSw0LjUuMy44LjIsMS41LjQsMi4yLjYsMi41LjcsNC44LDEuNCw4LjUtLjlhLjk4NC45ODQsMCwwLDAsLjMtMS40QTEuMjYxLDEuMjYxLDAsMCwwLDM4Ni4zLDIwOVoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8zOCIgZGF0YS1uYW1lPSJQYXRoIDM4IiBkPSJNMzgxLjcsMjAwYTYuMTIxLDYuMTIxLDAsMCwxLTIuOS00LjFjMS43LS4xLDMuOCwwLDQuOC43YTEuMDIsMS4wMiwwLDAsMSwuNS44LDEuMDYzLDEuMDYzLDAsMCwwLDEsLjloLjFhMS4xNzIsMS4xNzIsMCwwLDAsLjktMS4xLDMuMDIxLDMuMDIxLDAsMCwwLTEuMy0yLjJjLTEuNS0xLjItNC0xLjMtNS43LTEuMmE2LjQ2OSw2LjQ2OSwwLDAsMSwyLjUtMi43LDIuMTc4LDIuMTc4LDAsMCwxLDIuMy0uMiwxLjAzLDEuMDMsMCwwLDAsMS0xLjgsNC40MTksNC40MTksMCwwLDAtNC4zLjIsOC44LDguOCwwLDAsMC0zLjMsMy42LDExLjQ5MywxMS40OTMsMCwwLDAtOS4xLTMuNC45LjksMCwwLDAtLjksMS4xLjk1NS45NTUsMCwwLDAsMS4xLjksOS4yNjEsOS4yNjEsMCwwLDEsNywyLjIsMTIuNDgsMTIuNDgsMCwwLDAtOC40LDIuNy45OTIuOTkyLDAsMSwwLDEuMywxLjUsMTAuMDc3LDEwLjA3NywwLDAsMSw2LjMtMi4yLDUuNDYzLDUuNDYzLDAsMCwwLTIsMi45LDQuMTI3LDQuMTI3LDAsMCwwLC44LDMuNS45MDkuOTA5LDAsMCwwLC44LjQsMS40MjEsMS40MjEsMCwwLDAsLjYtLjIsMS4wNzUsMS4wNzUsMCwwLDAsLjItMS40LDIuMTEzLDIuMTEzLDAsMCwxLS41LTEuOCw1LjQ0Niw1LjQ0NiwwLDAsMSwyLjUtMi43LDguMTc0LDguMTc0LDAsMCwwLDMuOCw1LjJjMi4zLDEuMyw4LjMsNS42LDguMyw4LjlhMSwxLDAsMCwwLDIsMEMzOTEsMjA1LjYsMzgyLjcsMjAwLjYsMzgxLjcsMjAwWiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzM5IiBkYXRhLW5hbWU9IlBhdGggMzkiIGQ9Ik0zNTguMywyMDUuOHMyLjktLjYsNy44LDEuOWE1LjEzOCw1LjEzOCwwLDAsMCwzLjQsMHMzLjYtMi43LDExLjEuM2E0LjIsNC4yLDAsMCwwLDQuNS0uOXMtNC43LTQuMS02LjMtNS4xbC03LjMsMy45YTMzLjM1NywzMy4zNTcsMCwwLDAtMTItNS41Yy00LjEsMS0xMC4zLDYuNS0xMC4zLDYuNVMzNTEuNSwyMDkuMywzNTguMywyMDUuOFoiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Beach 4" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDIuMzc1cHgiIGhlaWdodD0iNDIuMzc1cHgiIHZpZXdCb3g9IjAgLTguOTUgNDIuMzc1IDQyLjM3NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iQmVhY2hfNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1MC42MjUgLTE4OC42MzIpIj4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8zMiIgZGF0YS1uYW1lPSJQYXRoIDMyIiBkPSJNMjg4LjIsMjA5Yy0yLjksMS45LTQuNSwxLjQtNi44LjctLjctLjItMS41LS40LTIuMy0uNi0zLjUtLjktNC4zLS43LTUuNy0uMmE4LjcyNSw4LjcyNSwwLDAsMS0zLjEuOCw4LjUsOC41LDAsMCwxLTQuMy0uNywxMS4yODUsMTEuMjg1LDAsMCwwLTQuOS0uOSw4LjQ2NSw4LjQ2NSwwLDAsMC00LjMsMS43Yy0xLjUsMS0yLjYsMS43LTQuOC45YTEuMDEyLDEuMDEyLDAsMCwwLS43LDEuOSw2LjYxLDYuNjEsMCwwLDAsMi42LjUsNi44NjksNi44NjksMCwwLDAsNC4xLTEuNiw2LjUyMyw2LjUyMywwLDAsMSwzLjMtMS40LDguODQ0LDguODQ0LDAsMCwxLDQuMS44LDEwLjAwNiwxMC4wMDYsMCwwLDAsNS4yLjgsMTIuNiwxMi42LDAsMCwwLDMuNi0xYy45LS40LDEuMy0uNSw0LjUuMy44LjIsMS41LjQsMi4yLjYsMi41LjcsNC44LDEuNCw4LjUtLjlhLjk4NC45ODQsMCwwLDAsLjMtMS40QTEuMjYxLDEuMjYxLDAsMCwwLDI4OC4yLDIwOVoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8zMyIgZGF0YS1uYW1lPSJQYXRoIDMzIiBkPSJNMjgzLjYsMjAwYTYuMTIxLDYuMTIxLDAsMCwxLTIuOS00LjFjMS43LS4xLDMuOCwwLDQuOC43YTEuMDIsMS4wMiwwLDAsMSwuNS44LDEuMDYzLDEuMDYzLDAsMCwwLDEsLjloLjFhMS4xNzIsMS4xNzIsMCwwLDAsLjktMS4xLDMuMDIxLDMuMDIxLDAsMCwwLTEuMy0yLjJjLTEuNS0xLjItNC0xLjMtNS43LTEuMmE2LjQ2OSw2LjQ2OSwwLDAsMSwyLjUtMi43LDIuMTc4LDIuMTc4LDAsMCwxLDIuMy0uMiwxLjAzLDEuMDMsMCwxLDAsMS0xLjgsNC40MTksNC40MTksMCwwLDAtNC4zLjIsOC44LDguOCwwLDAsMC0zLjMsMy42LDExLjQ5MywxMS40OTMsMCwwLDAtOS4xLTMuNC45LjksMCwwLDAtLjksMS4xLjk0NS45NDUsMCwwLDAsMS4xLjksOS4yNjEsOS4yNjEsMCwwLDEsNywyLjIsMTIuNDgsMTIuNDgsMCwwLDAtOC40LDIuNy45OTIuOTkyLDAsMCwwLDEuMywxLjUsMTAuMDc3LDEwLjA3NywwLDAsMSw2LjMtMi4yLDUuNDYzLDUuNDYzLDAsMCwwLTIsMi45LDQuMTI3LDQuMTI3LDAsMCwwLC44LDMuNS45MDkuOTA5LDAsMCwwLC44LjQsMS40MjEsMS40MjEsMCwwLDAsLjYtLjIsMS4wNzUsMS4wNzUsMCwwLDAsLjItMS40LDIuMTEzLDIuMTEzLDAsMCwxLS41LTEuOCw1LjQ0Niw1LjQ0NiwwLDAsMSwyLjUtMi43LDguMTc0LDguMTc0LDAsMCwwLDMuOCw1LjJjMi4zLDEuMyw4LjMsNS42LDguMyw4LjlhMSwxLDAsMCwwLDIsMEMyOTIuOSwyMDUuNiwyODQuNiwyMDAuNiwyODMuNiwyMDBaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMzQiIGRhdGEtbmFtZT0iUGF0aCAzNCIgZD0iTTI1Ny4yLDE5N2E2LjgzNCw2LjgzNCwwLDAsMC0yLjUtLjUsMSwxLDAsMCwwLDAsMiwzLjY3LDMuNjcsMCwwLDEsMS44LjQuODc1Ljg3NSwwLDAsMCwuOS42aDBhMS4yLDEuMiwwLDAsMCwxLS43LDEuODM4LDEuODM4LDAsMCwxLDEuNy0xLjJoMGExLDEsMCwwLDAsMC0yQTQuMDE4LDQuMDE4LDAsMCwwLDI1Ny4yLDE5N1oiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8zNSIgZGF0YS1uYW1lPSJQYXRoIDM1IiBkPSJNMjU0LjQsMTk1LjFjLjIsMCwuNi4xLjguMWExLjAyLDEuMDIsMCwwLDAsLjguNWgwYS45NjEuOTYxLDAsMCwwLC45LS43LjY4Mi42ODIsMCwwLDEsLjctLjUsMSwxLDAsMCwwLDEtMSwuOTQ1Ljk0NSwwLDAsMC0xLTEsMi41NjEsMi41NjEsMCwwLDAtMS45LjcsMy45LDMuOSwwLDAsMC0xLjQtLjIuOTQ1Ljk0NSwwLDAsMC0xLDFDMjUzLjQsMTk0LjcsMjUzLjgsMTk1LjEsMjU0LjQsMTk1LjFaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMzYiIGRhdGEtbmFtZT0iUGF0aCAzNiIgZD0iTTI2MiwxOTYuNWExLjU4NywxLjU4NywwLDAsMS0xLjMsMmgtLjFhNC40NTgsNC40NTgsMCwwLDAtMS42LjMsNC4wNjgsNC4wNjgsMCwxLDAsNC00LjYsNC4zNzYsNC4zNzYsMCwwLDAtMi41LjguNzU2Ljc1NiwwLDAsMSwuNC4xQTEuNDI0LDEuNDI0LDAsMCwxLDI2MiwxOTYuNVoiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Beach 5" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDIuNTY5cHgiIGhlaWdodD0iNDIuNTY5cHgiIHZpZXdCb3g9IjAgLTUuNyA0Mi41NjkgNDIuNTY5IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxnIGlkPSJCZWFjaF81IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTUyLjMzMSAtMTg1LjMzMikiPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzI4IiBkYXRhLW5hbWU9IlBhdGggMjgiIGQ9Ik0xODUuNSwxOTYuN2E2LjEyMSw2LjEyMSwwLDAsMS0yLjktNC4xYzEuNi0uMSwzLjgsMCw0LjguN2ExLjAyLDEuMDIsMCwwLDEsLjUuOCwxLjA2MywxLjA2MywwLDAsMCwxLC45aC4xYTEuMTcyLDEuMTcyLDAsMCwwLC45LTEuMSwyLjg1MSwyLjg1MSwwLDAsMC0xLjMtMi4yYy0xLjUtMS4yLTQtMS4yLTUuNy0xLjJhNi40NjksNi40NjksMCwwLDEsMi41LTIuNywyLjE3OCwyLjE3OCwwLDAsMSwyLjMtLjIsMS4wMywxLjAzLDAsMSwwLDEtMS44LDQuNDE5LDQuNDE5LDAsMCwwLTQuMy4yLDguOCw4LjgsMCwwLDAtMy4zLDMuNiwxMS40OTMsMTEuNDkzLDAsMCwwLTkuMS0zLjQuOS45LDAsMCwwLS45LDEuMS45NDUuOTQ1LDAsMCwwLDEuMS45LDkuNCw5LjQsMCwwLDEsNywyLjIsMTIuNDgsMTIuNDgsMCwwLDAtOC40LDIuNy45OTIuOTkyLDAsMCwwLDEuMywxLjUsMTAuMDc3LDEwLjA3NywwLDAsMSw2LjMtMi4yLDUuNDYzLDUuNDYzLDAsMCwwLTIsMi45LDQuMTI3LDQuMTI3LDAsMCwwLC44LDMuNS45MDkuOTA5LDAsMCwwLC44LjQsMS40MjIsMS40MjIsMCwwLDAsLjYtLjIsMS4wNzUsMS4wNzUsMCwwLDAsLjItMS40LDIuMTEzLDIuMTEzLDAsMCwxLS41LTEuOCw1LjQ0Nyw1LjQ0NywwLDAsMSwyLjUtMi43LDguMTc0LDguMTc0LDAsMCwwLDMuOCw1LjJjMi4zLDEuMyw4LjMsNS42LDguMyw4LjlhMSwxLDAsMCwwLDIsMEMxOTQuOSwyMDIuMywxODYuNSwxOTcuMywxODUuNSwxOTYuN1oiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8yOSIgZGF0YS1uYW1lPSJQYXRoIDI5IiBkPSJNMTc1LjQsMjA3LjhsLTIuOCwzLjNIMTY4di05LjNoOS4xTDE2NywxOTYuMmwtOS4xLDUuNmg4LjJ2OS4zaC0yYy0uMiwwLS4zLDAtLjQuMWgwbC00LDJhLjg4My44ODMsMCwwLDAtLjQsMS4zLDEuMTQ5LDEuMTQ5LDAsMCwwLC45LjYuNi42LDAsMCwwLC40LS4xbDIuNS0xLjN2MS44YTEsMSwwLDAsMCwyLDB2LTIuNGgxdjIuNGExLDEsMCwwLDAsMiwwdi0yLjRoNHYyLjRhMSwxLDAsMCwwLDIsMHYtM2wyLjktMy40YS45NjYuOTY2LDAsMCwwLS4xLTEuNEExLjA2NCwxLjA2NCwwLDAsMCwxNzUuNCwyMDcuOFoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8zMCIgZGF0YS1uYW1lPSJQYXRoIDMwIiBkPSJNMTYzLjIsMjA1LjdjLjQuMS43LjEsMSwuMmEuOTgyLjk4MiwwLDEsMCwuNS0xLjljLS40LS4xLS44LS4yLTEuMy0uM2E4LjQ1NCw4LjQ1NCwwLDAsMC00LjYuOGMtMS43LjctMi45LDEuMi00LjktLjJhMS4wMTIsMS4wMTIsMCwwLDAtMS4xLDEuNyw2LjExNSw2LjExNSwwLDAsMCwzLjUsMS4yLDguOSw4LjksMCwwLDAsMy4zLS44QTcuNDg3LDcuNDg3LDAsMCwxLDE2My4yLDIwNS43WiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzMxIiBkYXRhLW5hbWU9IlBhdGggMzEiIGQ9Ik0xOTAuMSwyMDQuOGMtMi45LDEuOS00LjUsMS40LTYuOC43LS43LS4yLTEuNS0uNC0yLjMtLjYtMy41LS45LTQuMy0uNy01LjctLjJhOC43MjUsOC43MjUsMCwwLDEtMy4xLjgsNS44NjIsNS44NjIsMCwwLDEtMi4zLS4xLDEuMDIsMS4wMiwwLDAsMC0uNCwyLDcuNTg3LDcuNTg3LDAsMCwwLDMsLjEsMTIuNiwxMi42LDAsMCwwLDMuNi0xYy45LS40LDEuMy0uNSw0LjUuMy44LjIsMS41LjQsMi4yLjZhMTAuOTY2LDEwLjk2NiwwLDAsMCwzLjYuNyw4Ljc1NSw4Ljc1NSwwLDAsMCw0LjgtMS42Ljk4NC45ODQsMCwwLDAsLjMtMS40QTEuMDc2LDEuMDc2LDAsMCwwLDE5MC4xLDIwNC44WiIvPgogIDwvZz4KPC9zdmc+Cg=="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Beach Boat" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDIuMzc1cHgiIGhlaWdodD0iNDIuMzc1cHgiIHZpZXdCb3g9IjAgLTguOTUgNDIuMzc1IDQyLjM3NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iQmVhY2hfNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTU0LjQyNSAtMTg4LjYzMikiPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzI0IiBkYXRhLW5hbWU9IlBhdGggMjQiIGQ9Ik05MiwyMDljLTIuOSwxLjktNC41LDEuNC02LjguNy0uNy0uMi0xLjUtLjQtMi4zLS42LTMuNS0uOS00LjMtLjctNS43LS4yYTguNzI1LDguNzI1LDAsMCwxLTMuMS44LDguNSw4LjUsMCwwLDEtNC4zLS43LDExLjI4NSwxMS4yODUsMCwwLDAtNC45LS45LDguNDY1LDguNDY1LDAsMCwwLTQuMywxLjdjLTEuNSwxLTIuNiwxLjctNC44LjlhMS4wMTIsMS4wMTIsMCwwLDAtLjcsMS45LDYuNjEsNi42MSwwLDAsMCwyLjYuNSw2Ljg2OSw2Ljg2OSwwLDAsMCw0LjEtMS42LDYuNTIzLDYuNTIzLDAsMCwxLDMuMy0xLjQsOC44NDQsOC44NDQsMCwwLDEsNC4xLjgsMTAuMDA2LDEwLjAwNiwwLDAsMCw1LjIuOCwxMi42LDEyLjYsMCwwLDAsMy42LTFjLjktLjQsMS4zLS41LDQuNS4zYTE0LjEzMSwxNC4xMzEsMCwwLDEsMi4yLjZjMi41LjcsNC44LDEuNCw4LjUtLjlhLjk4NC45ODQsMCwwLDAsLjMtMS40QzkzLDIwOC45LDkyLjQsMjA4LjcsOTIsMjA5WiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzI1IiBkYXRhLW5hbWU9IlBhdGggMjUiIGQ9Ik04Ny40LDIwMGE2LjEyMSw2LjEyMSwwLDAsMS0yLjktNC4xYzEuNy0uMSwzLjgsMCw0LjguN2ExLjAyLDEuMDIsMCwwLDEsLjUuOCwxLjA2MywxLjA2MywwLDAsMCwxLC45aC4xYTEuMTcyLDEuMTcyLDAsMCwwLC45LTEuMSwzLjAyMSwzLjAyMSwwLDAsMC0xLjMtMi4yYy0xLjUtMS4yLTQtMS4zLTUuNy0xLjJhNi40NjksNi40NjksMCwwLDEsMi41LTIuNywyLjE3OCwyLjE3OCwwLDAsMSwyLjMtLjIsMS4wMywxLjAzLDAsMSwwLDEtMS44LDQuNDE5LDQuNDE5LDAsMCwwLTQuMy4yLDguOCw4LjgsMCwwLDAtMy4zLDMuNiwxMS40OTMsMTEuNDkzLDAsMCwwLTkuMS0zLjQsMSwxLDAsMSwwLC4yLDIsOS40LDkuNCwwLDAsMSw3LDIuMiwxMi40OCwxMi40OCwwLDAsMC04LjQsMi43Ljk5Mi45OTIsMCwwLDAsMS4zLDEuNSwxMC4wNzcsMTAuMDc3LDAsMCwxLDYuMy0yLjIsNS40NjMsNS40NjMsMCwwLDAtMiwyLjksNC4xMjcsNC4xMjcsMCwwLDAsLjgsMy41LjkwOS45MDksMCwwLDAsLjguNCwxLjQyMSwxLjQyMSwwLDAsMCwuNi0uMiwxLjA3NSwxLjA3NSwwLDAsMCwuMi0xLjQsMi4xMTMsMi4xMTMsMCwwLDEtLjUtMS44LDUuNDQ3LDUuNDQ3LDAsMCwxLDIuNS0yLjcsOC4xNzQsOC4xNzQsMCwwLDAsMy44LDUuMmMyLjMsMS4zLDguMyw1LjYsOC4zLDguOWExLDEsMCwwLDAsMiwwQzk2LjcsMjA1LjYsODguNCwyMDAuNiw4Ny40LDIwMFoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8yNiIgZGF0YS1uYW1lPSJQYXRoIDI2IiBkPSJNNzAuNiwyMDcuOGwyLjQtMy43Yy02LjIsMi4yLTE1LjYtMi40LTE1LjYtMi40bDMuNCw2LjFTNjQuOSwyMDUuMiw3MC42LDIwNy44WiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzI3IiBkYXRhLW5hbWU9IlBhdGggMjciIGQ9Ik02NC41LDIwMy42YTEsMSwwLDAsMCwxLTFjMS4zLS40LDMuNS0uOCw0LjMsMS4yLDEuMS00LjYtMi42LTguNi00LjQtMTAuMmEuOTc0Ljk3NCwwLDAsMC0xLS44Ljk0NS45NDUsMCwwLDAtMSwxdjguOEExLjA5LDEuMDksMCwwLDAsNjQuNSwyMDMuNloiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Beach with Sun" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDIuMzc1cHgiIGhlaWdodD0iNDIuMzc1cHgiIHZpZXdCb3g9IjAgLTguNjkgNDIuMzc1IDQyLjM3NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iQmVhY2hfMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQ0Ni44MjUgLTE4OC40KSI+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNDAiIGRhdGEtbmFtZT0iUGF0aCA0MCIgZD0iTTQ4NC40LDIwOS4zYy0yLjksMS45LTQuNSwxLjQtNi44LjctLjctLjItMS41LS40LTIuMy0uNi0zLjUtLjktNC4zLS43LTUuNy0uMmE4LjcyNSw4LjcyNSwwLDAsMS0zLjEuOCw4LjUsOC41LDAsMCwxLTQuMy0uNywxMS4yODUsMTEuMjg1LDAsMCwwLTQuOS0uOSw4LjQ2NSw4LjQ2NSwwLDAsMC00LjMsMS43Yy0xLjUsMS0yLjYsMS43LTQuOC45YTEuMDEyLDEuMDEyLDAsMCwwLS43LDEuOSw2LjYxLDYuNjEsMCwwLDAsMi42LjUsNi44NjksNi44NjksMCwwLDAsNC4xLTEuNiw2LjUyMyw2LjUyMywwLDAsMSwzLjMtMS40LDguODQ0LDguODQ0LDAsMCwxLDQuMS44LDEwLjAwNiwxMC4wMDYsMCwwLDAsNS4yLjgsMTIuNiwxMi42LDAsMCwwLDMuNi0xYy45LS40LDEuMy0uNSw0LjUuMy44LjIsMS41LjQsMi4yLjYsMi41LjcsNC44LDEuNCw4LjUtLjlhLjk4NC45ODQsMCwwLDAsLjMtMS40QTEuMjM3LDEuMjM3LDAsMCwwLDQ4NC40LDIwOS4zWiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzQxIiBkYXRhLW5hbWU9IlBhdGggNDEiIGQ9Ik00NzkuOCwyMDAuM2E2LjEyMSw2LjEyMSwwLDAsMS0yLjktNC4xYzEuNy0uMSwzLjgsMCw0LjguN2ExLjAyLDEuMDIsMCwwLDEsLjUuOCwxLjA2MywxLjA2MywwLDAsMCwxLC45aC4xYTEuMTcyLDEuMTcyLDAsMCwwLC45LTEuMSwzLjAyMSwzLjAyMSwwLDAsMC0xLjMtMi4yYy0xLjUtMS4yLTQtMS4zLTUuNy0xLjJhNi40NjksNi40NjksMCwwLDEsMi41LTIuNywyLjE3OCwyLjE3OCwwLDAsMSwyLjMtLjIsMS4wMywxLjAzLDAsMCwwLDEtMS44LDQuNDE5LDQuNDE5LDAsMCwwLTQuMy4yLDguOCw4LjgsMCwwLDAtMy4zLDMuNiwxMS40OTMsMTEuNDkzLDAsMCwwLTkuMS0zLjQsMSwxLDAsMCwwLC4yLDIsOS40LDkuNCwwLDAsMSw3LDIuMiwxMi40OCwxMi40OCwwLDAsMC04LjQsMi43Ljk5Mi45OTIsMCwxLDAsMS4zLDEuNSwxMC4wNzcsMTAuMDc3LDAsMCwxLDYuMy0yLjIsNS40NjMsNS40NjMsMCwwLDAtMiwyLjksNC4xMjcsNC4xMjcsMCwwLDAsLjgsMy41LjkwOS45MDksMCwwLDAsLjguNCwxLjQyMSwxLjQyMSwwLDAsMCwuNi0uMiwxLjA3NSwxLjA3NSwwLDAsMCwuMi0xLjQsMi4xMTMsMi4xMTMsMCwwLDEtLjUtMS44LDUuNDQ2LDUuNDQ2LDAsMCwxLDIuNS0yLjcsOC4xNzQsOC4xNzQsMCwwLDAsMy44LDUuMmMyLjMsMS4zLDguMyw1LjYsOC4zLDguOWExLDEsMCwwLDAsMiwwQzQ4OS4xLDIwNS45LDQ4MC44LDIwMC45LDQ3OS44LDIwMC4zWiIvPgogICAgPGNpcmNsZSBpZD0iRWxsaXBzZV8xIiBkYXRhLW5hbWU9IkVsbGlwc2UgMSIgY3g9IjIuMSIgY3k9IjIuMSIgcj0iMi4xIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NTQuNiAxOTQuNCkiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF80MiIgZGF0YS1uYW1lPSJQYXRoIDQyIiBkPSJNNDU1LjcsMjAxLjJ2Mi4zYTEsMSwwLDAsMCwyLDB2LTIuM2ExLDEsMCwxLDAtMiwwWiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzQzIiBkYXRhLW5hbWU9IlBhdGggNDMiIGQ9Ik00NjAsMjAxLjRhMS4wOCwxLjA4LDAsMCwwLC43LjMuOTA4LjkwOCwwLDAsMCwuNy0uMy45NjcuOTY3LDAsMCwwLDAtMS40bC0uOC0uOGEuOTkuOTksMCwxLDAtMS40LDEuNFoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF80NCIgZGF0YS1uYW1lPSJQYXRoIDQ0IiBkPSJNNDYwLjQsMTk2LjVhLjk0NS45NDUsMCwwLDAsMSwxaDIuM2ExLDEsMCwwLDAsMC0yaC0yLjNBLjk0NS45NDUsMCwwLDAsNDYwLjQsMTk2LjVaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNDUiIGRhdGEtbmFtZT0iUGF0aCA0NSIgZD0iTTQ2MC4xLDE5NC4zYS45MDguOTA4LDAsMCwwLC43LS4zbC44LS44YS45OS45OSwwLDAsMC0xLjQtMS40bC0uOC44YS45NjcuOTY3LDAsMCwwLDAsMS40QS45MDguOTA4LDAsMCwwLDQ2MC4xLDE5NC4zWiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzQ2IiBkYXRhLW5hbWU9IlBhdGggNDYiIGQ9Ik00NTYuNywxOTIuN2EuOTQ1Ljk0NSwwLDAsMCwxLTF2LTIuM2ExLDEsMCwwLDAtMiwwdjIuM0EuOTQ1Ljk0NSwwLDAsMCw0NTYuNywxOTIuN1oiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF80NyIgZGF0YS1uYW1lPSJQYXRoIDQ3IiBkPSJNNDUyLjgsMTkzLjhhMS4wOCwxLjA4LDAsMCwwLC43LjMuOTA4LjkwOCwwLDAsMCwuNy0uMy45NjcuOTY3LDAsMCwwLDAtMS40bC0uOC0uOEEuOTkuOTksMCwwLDAsNDUyLDE5M1oiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF80OCIgZGF0YS1uYW1lPSJQYXRoIDQ4IiBkPSJNNDQ5LjcsMTk3LjVINDUyYTEsMSwwLDAsMCwwLTJoLTIuM2EuOTQ1Ljk0NSwwLDAsMC0xLDFBMSwxLDAsMCwwLDQ0OS43LDE5Ny41WiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzQ5IiBkYXRhLW5hbWU9IlBhdGggNDkiIGQ9Ik00NTIuNiwxOTlsLS44LjhhLjk2Ny45NjcsMCwwLDAsMCwxLjQsMS4wOCwxLjA4LDAsMCwwLC43LjMuOTA4LjkwOCwwLDAsMCwuNy0uM2wuOC0uOGEuOTkuOTksMCwxLDAtMS40LTEuNFoiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Bullet Train" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDQuMTExcHgiIGhlaWdodD0iNDQuMTExcHgiIHZpZXdCb3g9IjAgLTE1LjAxIDQ0LjExMSA0NC4xMTEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgaWQ9IlRyYWluIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjQyLjM4OSAtMzgwLjMpIj4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF82OSIgZGF0YS1uYW1lPSJQYXRoIDY5IiBkPSJNNjg2LDM5My40SDY0Mi45YS41LjUsMCwwLDAsMCwxSDY4NmEuNS41LDAsMCwwLDAtMVoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF83MCIgZGF0YS1uYW1lPSJQYXRoIDcwIiBkPSJNNjQ0LjksMzkxLjVoNDAuM2EuOS45LDAsMCwwLC45LS45bC0uNS04LjRhLjkuOSwwLDAsMC0uOS0uOUg2NzlsLTEtMWgtNWwtMSwxaC05LjJsLTEtMUg2NTdsLTEsMWgtMS40YTYuMDY5LDYuMDY5LDAsMCwwLTQuOSwxLjdsLTYuNCw1LjdDNjQzLjIsMzg4LjcsNjQwLjUsMzkxLjUsNjQ0LjksMzkxLjVabTMyLjItNi43aDZ2M2gtNlptLTguNSwwaDZ2M2gtNlptLTguNSwwaDZ2M2gtNlptLTgsMGg1LjN2M2gtOC44WiIvPgogIDwvZz4KPC9zdmc+Cg=="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Car" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDguNDQ3cHgiIGhlaWdodD0iNDguNDQ3cHgiIHZpZXdCb3g9IjAgLTE1LjM3IDQ4LjQ0NyA0OC40NDciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgaWQ9IkNhciIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQzOS4wNTMgLTM4MS45KSI+CiAgICA8Y2lyY2xlIGlkPSJFbGxpcHNlXzMiIGRhdGEtbmFtZT0iRWxsaXBzZSAzIiBjeD0iMy4yIiBjeT0iMy4yIiByPSIzLjIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ0NS4yIDM5My4xKSIvPgogICAgPGNpcmNsZSBpZD0iRWxsaXBzZV80IiBkYXRhLW5hbWU9IkVsbGlwc2UgNCIgY3g9IjMuMiIgY3k9IjMuMiIgcj0iMy4yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NzQuNiAzOTMuMikiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF82OCIgZGF0YS1uYW1lPSJQYXRoIDY4IiBkPSJNNDg3LjMsMzkyLjJjLS4xLjItLjIuNC0uNS40aC0xLjFhLjUuNSwwLDAsMSwwLTFoMS4yYTguNTY4LDguNTY4LDAsMCwxLS4zLTEuMy44OTQuODk0LDAsMCwxLS44LjQuNzEzLjcxMywwLDAsMS0uOC0uN3YtLjRhLjc3My43NzMsMCwwLDEsLjgtLjcuNjcuNjcsMCwwLDEsLjcuNCw3LjA4NCw3LjA4NCwwLDAsMSwuMS0xLjRsLTUuNy0uOHMtNC01LjItMTQuOC01LjJjLTYsMC0xMS4yLDIuNS0xNS4xLDQuN2EyNi41MTIsMjYuNTEyLDAsMCwxLTIuNCwxLjIsMjIuNjc2LDIyLjY3NiwwLDAsMS0zLjQsMS4xcy00LjYuOC01LjYsMi45YS4xLjEsMCwwLDEtLjEuMUg0NDFhLjUuNSwwLDAsMSwwLDFoLTEuNWMtLjEsMC0uMi0uMS0uMy0uMWE0LjIxNSw0LjIxNSwwLDAsMCwuNCwzLjJsMy40LjRoMS4ybC4zLS4xYTMuOCwzLjgsMCwwLDEsNy42LDBMNDc0LDM5NmgwYTMuODE4LDMuODE4LDAsMCwxLDcuNi0uMWMxLjYtLjEsNS41LS41LDUuNy0yLjNsLjItMS4yQzQ4Ny41LDM5Mi4zLDQ4Ny40LDM5Mi4zLDQ4Ny4zLDM5Mi4yWm0tMjIuNi00LjZ2LjFoLTEyczYuMy0zLjgsMTIuOS0zLjlabTExLjIuMUg0NjUuNmwuOS0zLjh2LS4xYzUuNywwLDcuNy45LDkuNywyLjJaIi8+CiAgPC9nPgo8L3N2Zz4K"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Drink" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iMzguMzgxcHgiIGhlaWdodD0iMzguMzgxcHgiIHZpZXdCb3g9Ii02LjQ1IDAgMzguMzgxIDM4LjM4MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iRHJpbmsiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02NzcuMzIgLTI3Ni41MikiPgogICAgPGcgaWQ9Ikdyb3VwXzYiIGRhdGEtbmFtZT0iR3JvdXAgNiI+CiAgICAgIDxnIGlkPSJHcm91cF8xIiBkYXRhLW5hbWU9Ikdyb3VwIDEiPgogICAgICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8xMSIgZGF0YS1uYW1lPSJQYXRoIDExIiBkPSJNNjk4LjYsMjg3LjJhLjYuNiwwLDAsMC0uNi0uM0g2NzkuNWEuODY0Ljg2NCwwLDAsMC0uNi4zLDEuNDIyLDEuNDIyLDAsMCwwLS4yLjZsMywyNi40YS43NTEuNzUxLDAsMCwwLC43LjdoMTIuNWEuNjg0LjY4NCwwLDAsMCwuNy0uN2wzLTI2LjRDNjk4LjksMjg3LjYsNjk4LjgsMjg3LjQsNjk4LjYsMjg3LjJabS0xLjQsMS4yLTIuOCwyNC45SDY4My4ybC0yLjgtMjQuOVoiLz4KICAgICAgPC9nPgogICAgICA8ZyBpZD0iR3JvdXBfMyIgZGF0YS1uYW1lPSJHcm91cCAzIj4KICAgICAgICA8ZyBpZD0iR3JvdXBfMiIgZGF0YS1uYW1lPSJHcm91cCAyIj4KICAgICAgICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8xMiIgZGF0YS1uYW1lPSJQYXRoIDEyIiBkPSJNNjgzLjIsMjg4LjRhLjU0OC41NDgsMCwwLDEtLjYtLjRsLTUuMi0xMC41YS42NzEuNjcxLDAsMCwxLDEuMi0uNmw1LjIsMTAuNWEuNjU5LjY1OSwwLDAsMS0uMy45QS4zNjguMzY4LDAsMCwxLDY4My4yLDI4OC40WiIvPgogICAgICAgIDwvZz4KICAgICAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMTMiIGRhdGEtbmFtZT0iUGF0aCAxMyIgZD0iTTY5OC4xLDI4My40YTQuNDU3LDQuNDU3LDAsMCwwLTIuNi44aDBhNC4zNjcsNC4zNjcsMCwwLDAtMS44LDMuMi43MDcuNzA3LDAsMSwwLDEuNC4yLDIuNDkxLDIuNDkxLDAsMCwxLC44LTEuN2wxLjQsMmgwbDIuMSwyLjlhMy4xOTQsMy4xOTQsMCwwLDEtMS40LjMuNy43LDAsMCwwLDAsMS40aC4zYTQuNDgxLDQuNDgxLDAsMCwwLDQuNS00LjVBNC44MDcsNC44MDcsMCwwLDAsNjk4LjEsMjgzLjRabTIuMywyLjQtMi4xLDEuMi0xLjQtMmEyLjUzNywyLjUzNywwLDAsMSwxLjItLjJBMy4yNTUsMy4yNTUsMCwwLDEsNzAwLjQsMjg1LjhabTAsNC4xLTEuMy0xLjgsMi0xLjFhMi43NjksMi43NjksMCwwLDEsLjEuOUEzLjE3NiwzLjE3NiwwLDAsMSw3MDAuNCwyODkuOVoiLz4KICAgICAgPC9nPgogICAgICA8ZyBpZD0iR3JvdXBfNSIgZGF0YS1uYW1lPSJHcm91cCA1Ij4KICAgICAgICA8ZyBpZD0iR3JvdXBfNCIgZGF0YS1uYW1lPSJHcm91cCA0Ij4KICAgICAgICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8xNCIgZGF0YS1uYW1lPSJQYXRoIDE0IiBkPSJNNjk3LjksMjkyLjFhLjUyLjUyLDAsMCwwLS40LS4ySDY4MC4xYS43NTguNzU4LDAsMCwwLS40LjJjLS4xLjEtLjEuMi0uMS40bDIuNSwyMS43YzAsLjMuMi40LjUuNGgxMi41YS40NTguNDU4LDAsMCwwLC41LS40bDIuNC0yMS43QzY5OCwyOTIuMyw2OTgsMjkyLjIsNjk3LjksMjkyLjFabS0xMy4xLDMuNmEuOC44LDAsMSwxLC44LjhDNjg1LjIsMjk2LjQsNjg0LjgsMjk2LjEsNjg0LjgsMjk1LjdabTEsMTQuNWEuOC44LDAsMSwxLC44LS44QS43ODkuNzg5LDAsMCwxLDY4NS44LDMxMC4yWm0xLTdhLjguOCwwLDEsMSwuOC0uOEEuNzM2LjczNiwwLDAsMSw2ODYuOCwzMDMuMlptMy43LDIuOWEuOC44LDAsMSwxLC44LS44QS43ODkuNzg5LDAsMCwxLDY5MC41LDMwNi4xWm0yLjEtNi44YS44LjgsMCwxLDEsLjgtLjhDNjkzLjMsMjk5LDY5MywyOTkuMyw2OTIuNiwyOTkuM1oiLz4KICAgICAgICA8L2c+CiAgICAgIDwvZz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Drink 2" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iMzkuODA0cHgiIGhlaWdodD0iMzkuODA0cHgiIHZpZXdCb3g9IjAgLTEuNDUgMzkuODA0IDM5LjgwNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IkRyaW5rXzIiIGQ9Ik00MzAuOCwyODQuOGE2LjU0NSw2LjU0NSwwLDAsMC02LjQsNS41SDM5OC43YS44NzUuODc1LDAsMCwwLS45LjYuOTEzLjkxMywwLDAsMCwuMiwxLjFsMTUuOCwxNi44djEwLjlINDEwYTEsMSwwLDAsMCwwLDJoOS43YTEsMSwwLDAsMCwwLTJoLTMuOFYzMDguOWwxMS40LTEyLjFhNi43MDYsNi43MDYsMCwwLDAsMy43LDEuMSw2LjQ4Nyw2LjQ4NywwLDAsMCw2LjUtNi41QTYuODgzLDYuODgzLDAsMCwwLDQzMC44LDI4NC44Wm00LjEsNC43LTMuMy43LTEuMi0zLjNoLjRBNC4xNjksNC4xNjksMCwwLDEsNDM0LjksMjg5LjVabS02LjQtMiwxLDIuOGgtMy4xQTUuMDE2LDUuMDE2LDAsMCwxLDQyOC41LDI4Ny41Wm0wLDQuOC0zLjcsMy45SDQwNC43bC0zLjctMy45Wm0uMSwyLjksMi0yLjEsMSwyLjZjLS4yLDAtLjQuMS0uNy4xQTQuMzgzLDQuMzgzLDAsMCwxLDQyOC42LDI5NS4yWm00LjgtLjItMS0yLjksMy0uN0E0Ljg4Miw0Ljg4MiwwLDAsMSw0MzMuNCwyOTVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzk3LjY5NiAtMjg0LjgpIi8+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Flippers" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDMuNDc3cHgiIGhlaWdodD0iNDMuNDc3cHgiIHZpZXdCb3g9Ii0wLjA3IDAgNDMuNDc3IDQzLjQ3NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iRmxpcHBlcnMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNDAuMDUzIC0zNjguOCkiPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzE4IiBkYXRhLW5hbWU9IlBhdGggMTgiIGQ9Ik0xNTguMywzNzBhNC4zLDQuMywwLDAsMC0zLjEtMS4yLDMuNzQ5LDMuNzQ5LDAsMCwwLTEuMS4xLDIzLjUsMjMuNSwwLDAsMC0xMS40LDUuMmMtMS43LDEuNC0zLjcsMy44LTIsOC4zbDYuOSwyMS40Yy45LDIuOCwyLjMsNi4xLDUuNCw2LjFhNC40ODQsNC40ODQsMCwwLDAsMS4xLS4xYzIuOC0uNiw0LjYtMS44LDQuOC02bC45LTI5UTE1OS45NSwzNzEuNSwxNTguMywzNzBabS00LjMsNy40YS41LjUsMCwwLDEsMSwwVjM4NmEuNS41LDAsMCwxLTEsMFptLTQuOCwxLjJjLjMtLjEuNS4xLjYuNGwxLjYsOGMuMS4zLS4xLjUtLjQuNmgtLjFhLjY2NC42NjQsMCwwLDEtLjUtLjRsLTEuNi04QzE0OC43LDM3OC45LDE0OC45LDM3OC43LDE0OS4yLDM3OC42Wm0tMS41LDExaC0uMmEuNTUuNTUsMCwwLDEtLjUtLjNsLTIuNS03LjhhLjQ3NC40NzQsMCwwLDEsLjktLjNsMi41LDcuOEMxNDguMSwzODkuMywxNDcuOSwzODkuNSwxNDcuNywzODkuNlptOC44LDExLjZjLS4xLDIuNy0xLjQsMy42LTMuMiwzLjktLjIsMC0uNC4xLS42LjEtMiwwLTIuOC0yLjEtMy40LTQuMmwtLjUtMS42YTIuOTEsMi45MSwwLDAsMSwuOS0zLjYsOS40LDkuNCwwLDAsMSw0LjUtMS45aC41YTIuMDM1LDIuMDM1LDAsMCwxLDEuNS42LDIuODE3LDIuODE3LDAsMCwxLC43LDIuMVoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8xOSIgZGF0YS1uYW1lPSJQYXRoIDE5IiBkPSJNMTY1LjMsMzc2LjZsLTcuNCwyOGMtMSw0LjEuNCw1LjcsMi45LDcuMWE0LjE3OSw0LjE3OSwwLDAsMCwxLC40YzMsLjksNS4zLTEuOCw3LTQuM2wxMi44LTE4LjVjMi45LTMuOCwxLjctNi43LjQtOC41YTIyLjI3MywyMi4yNzMsMCwwLDAtOS40LTguMiw0LjE3OSw0LjE3OSwwLDAsMC0xLS40LDQuMDE5LDQuMDE5LDAsMCwwLTMuNC4zQzE2Ni44LDM3My4yLDE2NS45LDM3NC42LDE2NS4zLDM3Ni42Wm0yLjQsMTIuNWEuNDc0LjQ3NCwwLDAsMS0uOS0uM2wyLjUtOC4yYS40NzQuNDc0LDAsMCwxLC45LjNabTYuOS01LjEtMy45LDcuMmEuNDgxLjQ4MSwwLDAsMS0uNi4ySDE3MGEuNTc0LjU3NCwwLDAsMS0uMi0uN2wzLjktNy4yYS41NzQuNTc0LDAsMCwxLC43LS4yQzE3NC43LDM4My41LDE3NC44LDM4My44LDE3NC42LDM4NFptLTIsOS42LDQuNi02LjdhLjUuNSwwLDEsMSwuOC42bC00LjYsNi43YS40ODEuNDgxLDAsMCwxLS42LjIuMS4xLDAsMCwxLS4xLS4xQS40NjcuNDY3LDAsMCwxLDE3Mi42LDM5My42Wm0tMTAuNSw0LjhhMy40MTMsMy40MTMsMCwwLDEsMS4zLTEuOSwxLjc4OSwxLjc4OSwwLDAsMSwxLjYtLjEuNTIuNTIsMCwwLDEsLjQuMiw4LjY5NCw4LjY5NCwwLDAsMSwzLjcsMy4xLDIuOTM1LDIuOTM1LDAsMCwxLS4yLDMuOGwtLjksMS40Yy0xLjIsMS45LTIuNiwzLjYtNC41LDMtLjItLjEtLjQtLjEtLjYtLjItMS42LS45LTIuNi0yLTEuOS00LjdaIi8+CiAgPC9nPgo8L3N2Zz4K"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Glasses" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDIuMDA3cHgiIGhlaWdodD0iNDIuMDA3cHgiIHZpZXdCb3g9IjAgLTEzLjY1IDQyLjAwNyA0Mi4wMDciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogIDxwYXRoIGlkPSJHbGFzc2VzIiBkPSJNODAwLjUsMjk0LjNjLS4xLS4xLS4xLS4xLS4yLS4xYTcxLjU1Nyw3MS41NTcsMCwwLDAtMjAtMi44LDYxLjkzNiw2MS45MzYsMCwwLDAtMTkuMSwyLjhjLS4xLDAtLjEuMS0uMi4xYTMuODQ4LDMuODQ4LDAsMCwwLTEuMSwyLjUsMS44ODksMS44ODksMCwwLDAsLjcsMS4zLjM2Ny4zNjcsMCwwLDAsLjMuMXMuOS4xLjkuNmE4LjAxOCw4LjAxOCwwLDAsMCwxLjksNS4zLDYuOTMyLDYuOTMyLDAsMCwwLDUuMywyaDBhMTEuODY5LDExLjg2OSwwLDAsMCwxMC04LjhzLjMtLjksMS45LS45YTIuMTI0LDIuMTI0LDAsMCwxLDEuOS45LDExLjg2OSwxMS44NjksMCwwLDAsMTAsOC44aDBhNy4wODUsNy4wODUsMCwwLDAsNS4zLTIsNy45NTksNy45NTksMCwwLDAsMS45LTUuMmMwLS41LjktLjYuOS0uNmEuMzY3LjM2NywwLDAsMCwuMy0uMSwyLjA5MSwyLjA5MSwwLDAsMCwuNy0xLjNBNC44NjUsNC44NjUsMCwwLDAsODAwLjUsMjk0LjNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNzU5Ljg5NCAtMjkxLjQpIi8+DQo8L3N2Zz4NCg=="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="35,35,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Hat American" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iMzcuMTcxcHgiIGhlaWdodD0iMzcuMTcxcHgiIHZpZXdCb3g9IjAgLTEwLjc3IDM3LjE3MSAzNy4xNzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJIYXQiIGQ9Ik02MTYuNywzMDIuM3MtMi43LTIuNi05LjYtMi4xbDEuNiw0aC0uOWMtLjgtMi40LTIuNC02LjMtMy43LTcuNmEzLjQzMywzLjQzMywwLDAsMC0zLjEtMS41LDcuNDQxLDcuNDQxLDAsMCwxLTIuNS0uNWMtNy45LTEuNC04LDUuNy04LDUuN2wtLjIsNy43YTIuNzY3LDIuNzY3LDAsMCwxLS44LS4xbC4xLTQuNi0xLjkuMXMtOS43LDEuMy02LjUsNC41YzAsMCw0LjUsMy42LDEyLjgsMS41LDAsMCwxLjItLjQsMy0uOS40LS4xLjYtLjIuNy0uMmExNS40MjcsMTUuNDI3LDAsMCwwLDEuNy0uNWM0LTEsOC44LTEuOCw4LjktMS44YTI5LjMzNiwyOS4zMzYsMCwwLDEsNC4xLS4zQzYxMi41LDMwNS43LDYyMC41LDMwNS45LDYxNi43LDMwMi4zWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTU4MC41NTIgLTI5NC40MTcpIi8+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Lifeguard Help" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDhweCIgaGVpZ2h0PSI0OHB4IiB2aWV3Qm94PSIwIDAgNDggNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgaWQ9IkxpZmVndWFyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIzOC4yIC0zNjYuNSkiPgogICAgPGcgaWQ9Ikdyb3VwXzEwIiBkYXRhLW5hbWU9Ikdyb3VwIDEwIj4KICAgICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzIwIiBkYXRhLW5hbWU9IlBhdGggMjAiIGQ9Ik0yNjIuMiw0MTQuNWEyNCwyNCwwLDEsMSwyNC0yNEEyNC4wNzEsMjQuMDcxLDAsMCwxLDI2Mi4yLDQxNC41Wm0wLTQ2YTIyLDIyLDAsMSwwLDIyLDIyQTIyLjA2NSwyMi4wNjUsMCwwLDAsMjYyLjIsMzY4LjVabTAsMzguM2ExNi4yLDE2LjIsMCwxLDEsMTYuMi0xNi4yQTE2LjI4MiwxNi4yODIsMCwwLDEsMjYyLjIsNDA2LjhabTAtMzAuNWExNC4yLDE0LjIsMCwxLDAsMTQuMiwxNC4yQTE0LjEyNywxNC4xMjcsMCwwLDAsMjYyLjIsMzc2LjNaIi8+CiAgICA8L2c+CiAgICA8ZyBpZD0iR3JvdXBfMTEiIGRhdGEtbmFtZT0iR3JvdXAgMTEiPgogICAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMjEiIGRhdGEtbmFtZT0iUGF0aCAyMSIgZD0iTTI1Mi43LDM2OS42bDMuMSw3LjFzNi42LTMuNCwxMy4zLjNsMy41LTYuOUEyMy4wMjgsMjMuMDI4LDAsMCwwLDI1Mi43LDM2OS42WiIvPgogICAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMjIiIGRhdGEtbmFtZT0iUGF0aCAyMiIgZD0iTTI0Ni45LDM5MS4zbC03LjcuNGEyMy41LDIzLjUsMCwwLDAsOS42LDE3LjVsNC42LTYuMkExNS40OTEsMTUuNDkxLDAsMCwxLDI0Ni45LDM5MS4zWiIvPgogICAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMjMiIGRhdGEtbmFtZT0iUGF0aCAyMyIgZD0iTTI3Ny40LDM5MS45cy0uNCw3LjQtNi45LDExLjRsNC4yLDYuNWEyMy4zMiwyMy4zMiwwLDAsMCwxMC40LTE3WiIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg=="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Plane" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDMuNTI4cHgiIGhlaWdodD0iNDMuNTI4cHgiIHZpZXdCb3g9IjAgLTEzLjI2IDQzLjUyOCA0My41MjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgaWQ9IlBsYW5lIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTQyLjA3MiAtMzgyKSI+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNjQiIGRhdGEtbmFtZT0iUGF0aCA2NCIgZD0iTTU1OC44LDM4OS4xbDUtMy42aDEuNmwtLjgsMy43Ii8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNjUiIGRhdGEtbmFtZT0iUGF0aCA2NSIgZD0iTTU2MC41LDM5Ny43bDQuOSwxLjNoMi40bC0yLjctMS43Ii8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNjYiIGRhdGEtbmFtZT0iUGF0aCA2NiIgZD0iTTU3My4zLDM4OS40WiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzY3IiBkYXRhLW5hbWU9IlBhdGggNjciIGQ9Ik01NzguMywzOTNsNy4zLTExaC0zLjVsLTguOCw3LjRhMzkuMjEyLDM5LjIxMiwwLDAsMC00LjctLjJsLTE4LjktLjhoLS4xYy0yLS4yLTUsMi4xLTUsMi4xLTEuOCwxLTQuNSwzLjItLjMsNS43LDAsMCwxLjksMS4yLDkuNCwxLjVoLjJjMTAuNy41LDI0LjUtMS44LDI0LjUtMS44bDIuMS0uNkM1ODMuMiwzOTMuOCw1NzguMywzOTMsNTc4LjMsMzkzWm0tMjkuMS0yLjNoLTMuNWMzLTEuOCw0LjQtMS42LDQuNC0xLjZabTQuMiwxLjRhLjQ3Mi40NzIsMCwwLDEtLjUuNWgtLjNhLjQ3Mi40NzIsMCwwLDEtLjUtLjV2LS4zYS40NzIuNDcyLDAsMCwxLC41LS41aC4zYS40NzIuNDcyLDAsMCwxLC41LjVabTMuNCwwYS40NzIuNDcyLDAsMCwxLS41LjVINTU2YS40NzIuNDcyLDAsMCwxLS41LS41di0uM2EuNDcyLjQ3MiwwLDAsMSwuNS0uNWguM2EuNDcyLjQ3MiwwLDAsMSwuNS41Wm01LjUsMmExLjc1MSwxLjc1MSwwLDAsMS0zLjUtLjF2LTEuNmExLjc1MSwxLjc1MSwwLDEsMSwzLjUuMVptMy43LTJhLjQ3Mi40NzIsMCwwLDEtLjUuNWgtLjNhLjQ3Mi40NzIsMCwwLDEtLjUtLjV2LS4zYS40NzIuNDcyLDAsMCwxLC41LS41aC4zYS40NzIuNDcyLDAsMCwxLC41LjVabTMuMywwYS40NzIuNDcyLDAsMCwxLS41LjVoLS4zYS40NzIuNDcyLDAsMCwxLS41LS41di0uM2EuNDcyLjQ3MiwwLDAsMSwuNS0uNWguM2EuNDcyLjQ3MiwwLDAsMSwuNS41Wm0zLjMsMGEuNDcyLjQ3MiwwLDAsMS0uNS41aC0uM2EuNDcyLjQ3MiwwLDAsMS0uNS0uNXYtLjNhLjQ3Mi40NzIsMCwwLDEsLjUtLjVoLjNhLjQ3Mi40NzIsMCwwLDEsLjUuNVoiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Scooter" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iMzcuM3B4IiBoZWlnaHQ9IjM3LjNweCIgdmlld0JveD0iLTcuNTQgMCAzNy4zIDM3LjMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgaWQ9IlNjb290ZXIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNTEuNjgxIC0zNzIuNikiPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzU4IiBkYXRhLW5hbWU9IlBhdGggNTgiIGQ9Ik0zNjMuMiwzOTljLS4zLDAtLjcuMS0xLC4xYTIuMiwyLjIsMCwwLDEtLjgtLjEsMS43LDEuNywwLDAsMS0uNy0uMWgwYy0uMiwwLS41LS4xLS43LS4xdjguOGEyLjMsMi4zLDAsMCwwLDQuNiwwdi01LjloMHYtM2gwQTMuNTI5LDMuNTI5LDAsMCwxLDM2My4yLDM5OVoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF81OSIgZGF0YS1uYW1lPSJQYXRoIDU5IiBkPSJNMzU2LjEsMzc2Ljd2MS4xczQuNC0uMiw0LjIsMi40YTEyLjU0MSwxMi41NDEsMCwwLDEsMS43LS4yLDExLjAzLDExLjAzLDAsMCwxLDIuNC4xbC42LjFjLS4yLTIuNiw0LjItMi40LDQuMi0yLjR2LTIuNGwtMy0uNWEzLjYyMywzLjYyMywwLDAsMC0zLjQtMi4zaC0uMmEzLjYyMywzLjYyMywwLDAsMC0zLjQsMi4zbC0zLC41djEuMmEuNjYxLjY2MSwwLDAsMC0uNy0uNmwtMy4yLjJhLjU2My41NjMsMCwwLDAtLjYuN2MwLC40LjMuNi43LjZoMGwzLjItLjJBLjU2LjU2LDAsMCwwLDM1Ni4xLDM3Ni43Wm02LjYtMi4zYTIsMiwwLDEsMS0yLDJBMi4wMDYsMi4wMDYsMCwwLDEsMzYyLjcsMzc0LjRaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNjAiIGRhdGEtbmFtZT0iUGF0aCA2MCIgZD0iTTM3My4zLDM3Ni4ybC0zLjItLjJhLjY1Mi42NTIsMCwwLDAtLjEsMS4zbDMuMi4yaDBhLjY2OS42NjksMCwwLDAsLjctLjZDMzczLjksMzc2LjUsMzczLjcsMzc2LjIsMzczLjMsMzc2LjJaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNjEiIGRhdGEtbmFtZT0iUGF0aCA2MSIgZD0iTTM2Mi40LDM5Mi4xYTIuNjI4LDIuNjI4LDAsMCwwLTEuOSwxLDUuNTkyLDUuNTkyLDAsMCwwLTEsNC4xLDYuNjcyLDYuNjcyLDAsMCwwLDIuNy41LDkuNDg1LDkuNDg1LDAsMCwwLDMuMi0uNiw2LjI0OSw2LjI0OSwwLDAsMC0uOC00QTMuNDY4LDMuNDY4LDAsMCwwLDM2Mi40LDM5Mi4xWiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzYyIiBkYXRhLW5hbWU9IlBhdGggNjIiIGQ9Ik0zNjIuOCwzODAuMmgtLjFhMjMuMDEzLDIzLjAxMywwLDAsMC0zLjQuNHYuMnMtLjIsMy4xLDEuMiw0LjdhMi41MTgsMi41MTgsMCwwLDAsMiwuOSwzLjk4MSwzLjk4MSwwLDAsMCwyLjEtLjljMS41LTEuNiwxLjMtNC43LDEuMy00LjdhLjM2Ny4zNjcsMCwwLDEsLjEtLjNDMzY0LjYsMzgwLjMsMzYyLjgsMzgwLjIsMzYyLjgsMzgwLjJaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNjMiIGRhdGEtbmFtZT0iUGF0aCA2MyIgZD0iTTM2Ny4yLDM4MC45YzAsLjgsMCwzLjctMS43LDUuNWE0LjA3MSw0LjA3MSwwLDAsMS0yLjUsMS4zYy0uMSwwLS4yLjEtLjMuMWgtLjVhLjM2Ny4zNjcsMCwwLDEtLjMtLjEsNC42NTYsNC42NTYsMCwwLDEtMi41LTEuM2MtMS41LTEuNi0xLjYtNC4yLTEuNi01LjNhNC42MDcsNC42MDcsMCwwLDAtMiwzLjYsNjIuOTIsNjIuOTIsMCwwLDAtLjUsMTEuMnMuMSw0LjgsMy4zLDUuN3YtMy4zYS4zNjcuMzY3LDAsMCwwLS4zLS4xLjU1LjU1LDAsMCwxLS4zLS41Yy0uMy0yLjQuMi00LjMsMS4zLTUuNWE0LjI5NCw0LjI5NCwwLDAsMSwzLTEuNCw0LjAxOCw0LjAxOCwwLDAsMSwzLjIsMS42YzEuNiwyLDEuMSw1LjMsMS4xLDUuNGEuNjY0LjY2NCwwLDAsMS0uNC41Yy0uMSwwLS4yLjEtLjMuMXYzLjNjMy45LS44LDQuMi01LjcsNC4yLTUuN2E2Mi4xNzgsNjIuMTc4LDAsMCwwLS41LTExLjJBNC43MzYsNC43MzYsMCwwLDAsMzY3LjIsMzgwLjlaIi8+CiAgPC9nPgo8L3N2Zz4K"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Ship in Sea" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDcuNTE4cHgiIGhlaWdodD0iNDcuNTE4cHgiIHZpZXdCb3g9IjAgLTUuMDkgNDcuNTE4IDQ3LjUxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iU2hpcCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTc0MS4yMjMgLTM1OS43NjEpIj4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF83MSIgZGF0YS1uYW1lPSJQYXRoIDcxIiBkPSJNNzUwLjEsMzg5Ii8+CiAgICA8ZyBpZD0iR3JvdXBfMTQiIGRhdGEtbmFtZT0iR3JvdXAgMTQiPgogICAgICA8ZyBpZD0iR3JvdXBfMTIiIGRhdGEtbmFtZT0iR3JvdXAgMTIiPgogICAgICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF83MiIgZGF0YS1uYW1lPSJQYXRoIDcyIiBkPSJNNzczLjcsMzk3LjFhNy40MSw3LjQxLDAsMCwxLTMuMi0uNyw5LjgsOS44LDAsMCwxLTIuNS0xLjZjLS41LS40LTEtLjgtMS40LTEuMWEyLjYxOCwyLjYxOCwwLDAsMC0yLjcsMGMtLjYuMy0xLjEuOC0xLjYsMS4xYTkuNDE4LDkuNDE4LDAsMCwxLTQsMiw4LjE1OCw4LjE1OCwwLDAsMS01LjUtLjgsMTAuMTMsMTAuMTMsMCwwLDEtMi0xLjRsLS40LS4zYTQuMTMsNC4xMywwLDAsMC0xLjEtLjcsMi4zNTQsMi4zNTQsMCwwLDAtMi4zLDAsMy42LDMuNiwwLDAsMC0xLjIuOCwxNi42NjYsMTYuNjY2LDAsMCwxLTMuMSwyLC45ODUuOTg1LDAsMSwxLS44LTEuOCwxNC4xOTMsMTQuMTkzLDAsMCwwLDIuNi0xLjcsOC42MzYsOC42MzYsMCwwLDEsMS42LTEsNC40NjIsNC40NjIsMCwwLDEsNC4yLDBjLjUuMywxLC42LDEuNC45bC40LjNhOC44NDgsOC44NDgsMCwwLDAsMS43LDEuMiw1Ljk2Niw1Ljk2NiwwLDAsMCw0LjEuNiw3LjQsNy40LDAsMCwwLDMuMi0xLjYsMTQuMDEzLDE0LjAxMywwLDAsMSwxLjgtMS4zLDQuNDI4LDQuNDI4LDAsMCwxLDQuNywwYy42LjQsMS4yLjgsMS43LDEuMmExMS41NiwxMS41NiwwLDAsMCwyLDEuMyw1LjY0Nyw1LjY0NywwLDAsMCwzLjYuNCw2LjcyNiw2LjcyNiwwLDAsMCwyLjgtMS40Yy4yLS4yLjQtLjMuNi0uNS4zLS4yLjYtLjUuOS0uN2E0LjM3Niw0LjM3NiwwLDAsMSwzLjItMSw2LjIyLDYuMjIsMCwwLDEsMi42LjlsLjkuNmMuMy4yLjYuNS45LjdhNC4wNTIsNC4wNTIsMCwwLDAsLjkuNWMuMi4xLjMuMi41LjNhMS4wMywxLjAzLDAsMSwxLTEsMS44Ljc1OC43NTgsMCwwLDAtLjQtLjIsMTAuOSwxMC45LDAsMCwxLTEuMS0uNmMtLjMtLjItLjctLjUtMS0uN3MtLjUtLjQtLjgtLjZhMy4xMzksMy4xMzksMCwwLDAtMS42LS42LDIuODA1LDIuODA1LDAsMCwwLTEuOS43LDUuNTQ4LDUuNTQ4LDAsMCwwLS44LjYsMS43OTQsMS43OTQsMCwwLDEtLjcuNSw4LjUzLDguNTMsMCwwLDEtMy42LDEuN0E4Ljc1Miw4Ljc1MiwwLDAsMSw3NzMuNywzOTcuMVoiLz4KICAgICAgPC9nPgogICAgICA8ZyBpZD0iR3JvdXBfMTMiIGRhdGEtbmFtZT0iR3JvdXAgMTMiPgogICAgICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF83MyIgZGF0YS1uYW1lPSJQYXRoIDczIiBkPSJNNzczLjcsMzkyYTcuNDEsNy40MSwwLDAsMS0zLjItLjcsOS44LDkuOCwwLDAsMS0yLjUtMS42LDguMjc5LDguMjc5LDAsMCwwLTEuNS0xLjEsMi42MTgsMi42MTgsMCwwLDAtMi43LDBjLS41LjMtMSwuNy0xLjYsMS4xYTkuNDE4LDkuNDE4LDAsMCwxLTQsMiw4LjI0LDguMjQsMCwwLDEtNS41LS44LDEwLjEzLDEwLjEzLDAsMCwxLTItMS40bC0uNC0uM2E0LjEzLDQuMTMsMCwwLDAtMS4xLS43LDIuMzU0LDIuMzU0LDAsMCwwLTIuMywwLDMuNiwzLjYsMCwwLDAtMS4yLjgsMTYuNjY2LDE2LjY2NiwwLDAsMS0zLjEsMiwuOTg1Ljk4NSwwLDEsMS0uOC0xLjgsOS43NTEsOS43NTEsMCwwLDAsMi42LTEuNyw4LjYzNiw4LjYzNiwwLDAsMSwxLjYtMSw0LjQ2Miw0LjQ2MiwwLDAsMSw0LjIsMCw0LjIsNC4yLDAsMCwxLDEuNC45bC40LjNhOC44NDgsOC44NDgsMCwwLDAsMS43LDEuMiw1Ljk2Niw1Ljk2NiwwLDAsMCw0LjEuNiw3LjQsNy40LDAsMCwwLDMuMi0xLjYsMjAuMjc3LDIwLjI3NywwLDAsMSwxLjgtMS4zLDQuNDI4LDQuNDI4LDAsMCwxLDQuNywwYy42LjQsMS4yLjgsMS43LDEuMmExNy4zNzIsMTcuMzcyLDAsMCwwLDIsMS4zLDUuNjQ3LDUuNjQ3LDAsMCwwLDMuNi40LDYuNzI2LDYuNzI2LDAsMCwwLDIuOC0xLjRjLjItLjIuNC0uMy42LS41LjMtLjIuNi0uNS45LS43YTQuMzc2LDQuMzc2LDAsMCwxLDMuMi0xLDYuMjIsNi4yMiwwLDAsMSwyLjYuOWwuOS42Yy4zLjIuNi41LjkuN2E0LjA1Miw0LjA1MiwwLDAsMCwuOS41Yy4yLjEuMy4yLjUuM2ExLjAzLDEuMDMsMCwxLDEtMSwxLjguNzU4Ljc1OCwwLDAsMC0uNC0uMmMtLjQtLjItLjctLjQtMS4xLS42LS4zLS4yLS43LS41LTEtLjdzLS41LS40LS44LS42YTMuMTM5LDMuMTM5LDAsMCwwLTEuNi0uNiwyLjgwNSwyLjgwNSwwLDAsMC0xLjkuN2MtLjMuMi0uNS40LS44LjZhMS43OTQsMS43OTQsMCwwLDEtLjcuNSw4LjUzLDguNTMsMCwwLDEtMy42LDEuN0EzLjY0NSwzLjY0NSwwLDAsMSw3NzMuNywzOTJaIi8+CiAgICAgIDwvZz4KICAgIDwvZz4KICAgIDxnIGlkPSJHcm91cF8xOCIgZGF0YS1uYW1lPSJHcm91cCAxOCI+CiAgICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF83NCIgZGF0YS1uYW1lPSJQYXRoIDc0IiBkPSJNNzUwLjEsMzg5bDMzLjItMS41LDIuNi05LjFhMS4wMiwxLjAyLDAsMCwwLS4yLS45LDEuMjM0LDEuMjM0LDAsMCwwLS44LS40SDc0My44YTEuMDUsMS4wNSwwLDAsMC0uOS41LjkyLjkyLDAsMCwwLC4xLDFsNy4xLDEwLjQiLz4KICAgICAgPGcgaWQ9Ikdyb3VwXzE1IiBkYXRhLW5hbWU9Ikdyb3VwIDE1Ij4KICAgICAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNzUiIGRhdGEtbmFtZT0iUGF0aCA3NSIgZD0iTTc4MC44LDM3NS4ydi0yYS45NDUuOTQ1LDAsMCwwLTEtMUg3NTIuNmExLjIsMS4yLDAsMCwwLTEsLjdsLS43LDIuM1oiLz4KICAgICAgPC9nPgogICAgICA8ZyBpZD0iR3JvdXBfMTciIGRhdGEtbmFtZT0iR3JvdXAgMTciPgogICAgICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF83NiIgZGF0YS1uYW1lPSJQYXRoIDc2IiBkPSJNNzczLjEsMzY4LjF2LTcuNGEuOTA4LjkwOCwwLDAsMC0uMy0uNy43NzguNzc4LDAsMCwwLS44LS4ybC00LjkuM2EuOS45LDAsMCwwLS45Ljl2N2g2LjlaIi8+CiAgICAgICAgPGcgaWQ9Ikdyb3VwXzE2IiBkYXRhLW5hbWU9Ikdyb3VwIDE2Ij4KICAgICAgICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF83NyIgZGF0YS1uYW1lPSJQYXRoIDc3IiBkPSJNNzc4LjIsMzcwLjJ2LTEuM2EuOTQ1Ljk0NSwwLDAsMC0xLTFINzU2LjdhMS4yLDEuMiwwLDAsMC0xLC43bC0uNCwxLjVoMjIuOVoiLz4KICAgICAgICA8L2c+CiAgICAgIDwvZz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Signboard" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDEuNnB4IiBoZWlnaHQ9IjQxLjZweCIgdmlld0JveD0iMCAtMi43IDQxLjYgNDEuNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iU2lnbmJvYXJkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDAuMyAtMzcxLjYpIj4KICAgIDxnIGlkPSJHcm91cF83IiBkYXRhLW5hbWU9Ikdyb3VwIDciPgogICAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMTUiIGRhdGEtbmFtZT0iUGF0aCAxNSIgZD0iTTYxLjEsNDA3LjhhLjk0NS45NDUsMCwwLDEtMS0xVjM3Mi42YTEsMSwwLDAsMSwyLDB2MzQuMkExLDEsMCwwLDEsNjEuMSw0MDcuOFoiLz4KICAgIDwvZz4KICAgIDxnIGlkPSJHcm91cF84IiBkYXRhLW5hbWU9Ikdyb3VwIDgiPgogICAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMTYiIGRhdGEtbmFtZT0iUGF0aCAxNiIgZD0iTTgxLjgsMzc5LjdsLTQtMy4zYS4zNjcuMzY3LDAsMCwwLS4zLS4xSDY0LjFhLjQ3Mi40NzIsMCwwLDAtLjUuNXY2LjdhLjQ3Mi40NzIsMCwwLDAsLjUuNUg3Ny40YS4zNjcuMzY3LDAsMCwwLC4zLS4xbDQtMy4zYS41Mi41MiwwLDAsMCwuMi0uNEM4MS45LDM3OS45LDgxLjksMzc5LjgsODEuOCwzNzkuN1oiLz4KICAgIDwvZz4KICAgIDxnIGlkPSJHcm91cF85IiBkYXRhLW5hbWU9Ikdyb3VwIDkiPgogICAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMTciIGRhdGEtbmFtZT0iUGF0aCAxNyIgZD0iTTU4LjEsMzc5LjNINDQuOGEuMzY3LjM2NywwLDAsMC0uMy4xbC00LDMuM2EuNTIuNTIsMCwwLDAtLjIuNC43NTguNzU4LDAsMCwwLC4yLjRsNCwzLjNhLjM2Ny4zNjcsMCwwLDAsLjMuMUg1OC4xYS40NzIuNDcyLDAsMCwwLC41LS41di02LjdBLjQ1OC40NTgsMCwwLDAsNTguMSwzNzkuM1oiLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Slippers" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iMzYuNzJweCIgaGVpZ2h0PSIzNi43MnB4IiB2aWV3Qm94PSItNCAwIDM2LjcyIDM2LjcyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxnIGlkPSJTbGlwcGVycyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIyMS41OTIgLTI4MC4zNykiPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzEiIGRhdGEtbmFtZT0iUGF0aCAxIiBkPSJNMjQ1LjMsMjgzLjhjLTYuOC00LjEtOC4zLDcuNi04LjMsNy42LS4xLDEuMi0uMSwyLjQtLjIsMy40YTEwLjU4LDEwLjU4LDAsMCwxLDUuNy0zLjFsLjMtMS40YTEuMDIsMS4wMiwwLDAsMSwyLC40bC0uMywxLjZhMjIuMTQ5LDIyLjE0OSwwLDAsMSwzLjcsOEMyNTAuNCwyOTUuNSwyNTIuNiwyODguMiwyNDUuMywyODMuOFoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF8yIiBkYXRhLW5hbWU9IlBhdGggMiIgZD0iTTIzNy43LDI5Ni45YTguOTg2LDguOTg2LDAsMCwwLTEuMiw2LDEuMDEyLDEuMDEyLDAsMCwxLS44LDEuMi43NzguNzc4LDAsMCwxLS44LS4ybC0uMy45YTkuNTc5LDkuNTc5LDAsMCwxLS4zLTIuMmgtLjRhMS4wNCwxLjA0LDAsMCwxLS42LTEuMyw4LjE0Nyw4LjE0NywwLDAsMC00LjgtMTAuNGMtMS40LDEuNC01LjQsNS45LTQuMiw5LjZsMSwxLjZhMS4wNzYsMS4wNzYsMCwwLDEtLjMsMS40LjkuOSwwLDAsMS0uNS4xaC0uMmMuNCwyLjcuNSw0LjcuNSw0LjdzLjMsNyw1LjIsNi41YTYuMjEyLDYuMjEyLDAsMCwwLDMuMy0xLjNoMGE1LjY1Nyw1LjY1NywwLDAsMCwzLjksMy40YzQuOCwxLjQsNi4zLTUuNCw2LjMtNS40YTQ2LjE3LDQ2LjE3LDAsMCwxLDEuNS00LjgsMS40MjEsMS40MjEsMCwwLDEtLjYtLjIsMS4wNzEsMS4wNzEsMCwwLDEtLjEtMS40bDEuMy0xLjVjMS43LTIuNi0xLjEtNy42LTIuOC05LjlBNy45NzIsNy45NzIsMCwwLDAsMjM3LjcsMjk2LjlaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfMyIgZGF0YS1uYW1lPSJQYXRoIDMiIGQ9Ik0yMjcuMiwyODcuNmEuOTQ1Ljk0NSwwLDAsMSwxLTEsMSwxLDAsMCwxLDEsMXYxLjNhMTAuMywxMC4zLDAsMCwxLDUuMiw0LjVjLjEtMS4xLjMtMi4zLjUtMy42LDAsMCwuNy0xMS44LTYuNy05LTcuOCwyLjktNy4xLDEwLjgtNS44LDE2YTE4Ljk5MywxOC45OTMsMCwwLDEsNC45LTcuNloiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Suitcase 2" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDEuOHB4IiBoZWlnaHQ9IjQxLjhweCIgdmlld0JveD0iLTEwLjkgMCA0MS44IDQxLjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgaWQ9InN1aXRjYXNlXzIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00NC41IC0yNzQuNikiPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzU0IiBkYXRhLW5hbWU9IlBhdGggNTQiIGQ9Ik01OC43LDI5My42SDUwYTEsMSwwLDAsMC0xLDF2MTcuMWExLDEsMCwwLDAsMSwxaDguN2ExLDEsMCwwLDAsMS0xVjI5NC42QTEuMDc1LDEuMDc1LDAsMCwwLDU4LjcsMjkzLjZaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNTUiIGRhdGEtbmFtZT0iUGF0aCA1NSIgZD0iTTYwLjMsMjg2LjVINTguN1YyNzdhLjc1OC43NTgsMCwwLDAsLjQtLjJjLjQtLjEsMS4yLS40LDEuMS0xLjItLjEtMS0xLjEtMS0xLjYtMUg1MC4zcS0xLjM1LDAtMS41LjlhMS4yMzMsMS4yMzMsMCwwLDAsMSwxLjNjLjEsMCwuMi4xLjMuMXY5LjVINDguNGEzLjksMy45LDAsMCwwLTMuOSwzLjl2MjAuNGEzLjg2NCwzLjg2NCwwLDAsMCwxLjgsMy4zdjEuNGExLDEsMCwwLDAsMiwwdi0uOEg2MC43di44YTEsMSwwLDAsMCwyLDBWMzE0YTMuODY0LDMuODY0LDAsMCwwLDEuOC0zLjNWMjkwLjNBNC40NzksNC40NzksMCwwLDAsNjAuMywyODYuNVpNNTIsMjc3LjJhNC4zMzEsNC4zMzEsMCwwLDAsLjUuMSwyLjkyLDIuOTIsMCwwLDAsLjktLjIsMS44ODQsMS44ODQsMCwwLDAsLjguMiwyLjM4OCwyLjM4OCwwLDAsMCwuOS0uMi4xLjEsMCwwLDEsLjEuMSw0LjA2OSw0LjA2OSwwLDAsMCwxLC4yLjYuNiwwLDAsMCwuNC0uMXY5LjNINTJabTYuMiwzNi41SDUwLjRhMi45LDIuOSwwLDAsMS0yLjktMi45VjI5NS41YTIuOSwyLjksMCwwLDEsMi45LTIuOWg3LjhhMi45LDIuOSwwLDAsMSwyLjksMi45djE1LjNBMi45LDIuOSwwLDAsMSw1OC4yLDMxMy43WiIvPgogIDwvZz4KPC9zdmc+Cg=="/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Suitecase 1" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDAuMDE1cHgiIGhlaWdodD0iNDAuMDE1cHgiIHZpZXdCb3g9Ii03LjM4IDAgNDAuMDE1IDQwLjAxNSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iU3VpdGNhc2VfMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzMi40ODUgLTI3NC4zODUpIj4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF81NiIgZGF0YS1uYW1lPSJQYXRoIDU2IiBkPSJNMTU3LjcsMzA2LjlsLTIuNi0xMy4yYTIuMzExLDIuMzExLDAsMCwwLTIuOC0xLjhsLTEuMi4yLDMuNywxNy44aDBsMS4xLS4yQTIuNTMxLDIuNTMxLDAsMCwwLDE1Ny43LDMwNi45WiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzU3IiBkYXRhLW5hbWU9IlBhdGggNTciIGQ9Ik0xNTAuMSwyOTAuOWEzLjE4MSwzLjE4MSwwLDAsMC0zLjctMi41bC00LjYuOS0yLjktMTQuMWExLjAzNywxLjAzNywwLDAsMC0xLjItLjhsLTQuNC45YTEuMDIsMS4wMiwwLDEsMCwuNCwybDMuNC0uNyw2LjYsMzEuNWEuOTc0Ljk3NCwwLDAsMCwxLC44aC4yYTMuMywzLjMsMCwwLDEsMy41LDIuM2w1LjctMS4yLS42LTMuMVoiLz4KICAgIDxjaXJjbGUgaWQ9IkVsbGlwc2VfMiIgZGF0YS1uYW1lPSJFbGxpcHNlIDIiIGN4PSIyLjQiIGN5PSIyLjQiIHI9IjIuNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTQzLjEgMzA5LjYpIi8+CiAgPC9nPgo8L3N2Zz4K"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Tent" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDMuNTc0cHgiIGhlaWdodD0iNDMuNTc0cHgiIHZpZXdCb3g9IjAgLTUuOTkgNDMuNTc0IDQzLjU3NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iVGVudCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMwNC45MjYgLTI4MC42KSI+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNCIgZGF0YS1uYW1lPSJQYXRoIDQiIGQ9Ik0zNDguMSwzMDguMWEuOTc4Ljk3OCwwLDAsMC0xLjQuMmwtLjEuMS01LjQtMTMuN2EuMzQ5LjM0OSwwLDAsMC0uMS0uMnYtLjFjLTcuOC0zLjgtMTQuNC0xMy43LTE0LjQtMTMuN2gtLjFsNy42LDI4LjFzLTEuOC0xLjktMy4yLDEuNGgtNC4zVjI4MC42cy02LjMsOS41LTEzLjksMTMuNWMtLjMuMS0uNy4zLS44LjZsLTUuMiwxMy43LS4xLS4xYTEsMSwwLDAsMC0xLjYsMS4ybDEuMywxLjZhLjkxLjkxLDAsMCwwLC44LjQsMS40MjEsMS40MjEsMCwwLDAsLjYtLjIsMS4wODYsMS4wODYsMCwwLDAsLjQtLjlsNC45LTEyLjljMSw0LjIsMi43LDExLjYsMi42LDE0LjdoMjIuMWMtLjEtMywxLjUtMTAuMiwyLjUtMTQuNWw1LDEyLjdhMS4wODYsMS4wODYsMCwwLDAsLjQuOSwxLjQyMSwxLjQyMSwwLDAsMCwuNi4yLjkwOS45MDksMCwwLDAsLjgtLjRsMS4zLTEuNkExLjI3LDEuMjcsMCwwLDAsMzQ4LjEsMzA4LjFaIi8+CiAgICA8cGF0aCBmaWxsPSJwYXJhbShmaWxsKSAjMDAwIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICNmZmYiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMCIgaWQ9IlBhdGhfNSIgZGF0YS1uYW1lPSJQYXRoIDUiIGQ9Ik0zMzIuOCwzMDcuMWwtNS42LTIwLjgsMi44LDIzLjRTMzMxLjQsMzA1LjcsMzMyLjgsMzA3LjFaIi8+CiAgPC9nPgo8L3N2Zz4K"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol alpha="1" tags="Summer Travel Vectors" type="marker" clip_to_extent="1" name="Umbrella" force_rhr="0">
+      <layer locked="0" class="SvgMarker" pass="0" enabled="1">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="base64:PHN2ZyB3aWR0aD0iNDIuM3B4IiBoZWlnaHQ9IjQyLjNweCIgdmlld0JveD0iLTIuOTUgMCA0Mi4zIDQyLjMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgaWQ9IlVtYnJlbGxhIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDkwLjEgLTI4NSkiPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzYiIGRhdGEtbmFtZT0iUGF0aCA2IiBkPSJNNTA4LjMsMzA3LjJhLjk0NS45NDUsMCwwLDAtMSwxdjE0LjVhMi42LDIuNiwwLDEsMS01LjIsMCwxLDEsMCwxLDAtMiwwLDQuNiw0LjYsMCwxLDAsOS4yLDBWMzA4LjJBMSwxLDAsMCwwLDUwOC4zLDMwNy4yWiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzciIGRhdGEtbmFtZT0iUGF0aCA3IiBkPSJNNTA4LjMsMjkwLjFhLjk0NS45NDUsMCwwLDAsMS0xVjI4NmExLDEsMCwwLDAtMiwwdjMuMUExLjA3NSwxLjA3NSwwLDAsMCw1MDguMywyOTAuMVoiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF84IiBkYXRhLW5hbWU9IlBhdGggOCIgZD0iTTUwMS4zLDMwOC44Yy0yLjQtOC43LDIuOS0xNS45LDUuMy0xOC42YTE4LjMxMiwxOC4zMTIsMCwwLDAtMTYuNSwxOC4xbC44LjhhNi4wNjMsNi4wNjMsMCwwLDEsMTAuNC0uM1oiLz4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICMwMDAiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgI2ZmZiIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwIiBpZD0iUGF0aF85IiBkYXRhLW5hbWU9IlBhdGggOSIgZD0iTTUwOC41LDI5MS4xYy0xLjksMi03LjcsOS4yLTUuMSwxNy41di4xYTUuOTc5LDUuOTc5LDAsMCwxLDUtMi42LDYuMDY4LDYuMDY4LDAsMCwxLDUsMi43bC40LjJ2LS4yQzUxNS4zLDI5OC42LDUxMC4zLDI5Mi45LDUwOC41LDI5MS4xWiIvPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgIzAwMCIgc3Ryb2tlPSJwYXJhbShvdXRsaW5lKSAjZmZmIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIDAiIGlkPSJQYXRoXzEwIiBkYXRhLW5hbWU9IlBhdGggMTAiIGQ9Ik01MTAuNCwyOTAuMmMyLjQsMi41LDYuNiw4LjQsNS4zLDE4LjJhNi4wODUsNi4wODUsMCwwLDEsMTAuMi44bC42LS44QTE4LjA2NCwxOC4wNjQsMCwwLDAsNTEwLjQsMjkwLjJaIi8+CiAgPC9nPgo8L3N2Zz4K"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="8"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+  <symbols3d/>
+</qgis_style>
